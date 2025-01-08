@@ -13,18 +13,18 @@ And htmx to load partials
 
 ```js
 function init() {
-  import('...js')
+  import("...js");
 }
 
 const totalPartials = document.querySelectorAll(
   '[hx-trigger="load"], [data-hx-trigger="load"]'
-).length
-let loadedPartialsCount = 0
+).length;
+let loadedPartialsCount = 0;
 
-document.body.addEventListener('htmx:afterOnLoad', () => {
-  loadedPartialsCount++
-  if (loadedPartialsCount === totalPartials) init()
-})
+document.body.addEventListener("htmx:afterOnLoad", () => {
+  loadedPartialsCount++;
+  if (loadedPartialsCount === totalPartials) init();
+});
 ```
 
 Add the data-proofer-ignore attribute to any tag to ignore it from every check.
@@ -33,6 +33,10 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 <a href="https://notareallink" data-proofer-ignore>Not checked.</a>
 ```
 
-## Team
+# Development team :
 
-- Yevhen Martynych
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yevhenmartynych)
+  Yevhen Martynych **Team Lead**
+
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)
+  Viktor Svertoka **Front End Developer**
