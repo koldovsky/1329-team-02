@@ -53,3 +53,6 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)
   Yuliia Shpylka **Front End Developer**
 
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KravetsVA)
+  Vladimir Kravets **Front End Developer**
+
