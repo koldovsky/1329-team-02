@@ -1,0 +1,27 @@
+name: HTML Proofer
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0
+
+    - name: Install HTML Proofer
+      run: gem install html-proofer
+
+    - name: Run HTML Proofer
+      run: |
+        for file in $(find . -maxdepth 1 -iname "*.html"); do
+          htmlproofer $file --disable-external
+        done
