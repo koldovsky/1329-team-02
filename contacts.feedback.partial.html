@@ -1,0 +1,94 @@
+<section class="feedback">
+  <div class="feedback__container container">
+    <div class="feedback__content">
+      <div class="feedback__text">
+        <h2 class="feedback__title">Do You Have Anything to Say?</h2>
+        <p class="feedback__subtitle">
+          We're always here, waiting for your ideas, thoughts, and insights you
+          get after listening to our programs.
+        </p>
+        <p class="feedback__description">
+          If you want to drop us a line, you can do so by filling out the form
+          on the right. Also, you can simply write an email or call us if you
+          have any questions or thoughts. We're in our cozy studio, always
+          waiting for our listeners to call us.
+        </p>
+        <address class="feedback__address">
+          <div class="feedback__location">
+            <div class="feedback__wrapper">
+              <img
+                class="feedback__icon"
+                src="./images/global/05-location.svg"
+                alt="Location logo"
+                width="40"
+                height="40"
+              />
+            </div>
+            <div class="feedback__location-details">
+              <h3 class="feedback__location-title">studio address</h3>
+              <p class="feedback__location-info">240 Hooper St, Brooklyn,</p>
+              <p class="feedback__location-info">NY 11211, USA</p>
+            </div>
+          </div>
+          <div class="feedback__contact">
+            <div class="feedback__wrapper">
+              <img
+                class="feedback__icon"
+                src="./images/global/06-telephone.svg"
+                alt="Telephone logo"
+                width="40"
+                height="40"
+              />
+            </div>
+            <div class="feedback__contact-details">
+              <h3 class="feedback__contact-title">contacts</h3>
+              <a class="feedback__contact-link" href="tel:+12345678900"
+                >+1 (234) 567 89 00</a
+              >
+              <a class="feedback__contact-link" href="mailto:echowave@email.com"
+                >echowave@email.com</a
+              >
+            </div>
+          </div>
+        </address>
+        <a href="#">Listen to the radio →</a>
+      </div>
+      <form
+        class="feedback__form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+
+        <input
+          class="feedback__input"
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          class="feedback__input"
+          type="phone"
+          name="phone"
+          placeholder="Phone Number"
+          required
+        />
+        <input
+          class="feedback__input"
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          class="feedback__textarea"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button class="feedback__button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
