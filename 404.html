@@ -18,22 +18,24 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
+    <header class="header">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+    </header>
     <main>
-      <section class="page-404">
-        <div class="page-404__container container">
-          <h1 class="page-404__title">Oops! Page not found...</h1>
-          <img
-            class="page-404__image"
-            src="./images/global/404.svg"
-            alt="Page not found"
-          />
-          <a class="page-404__link" href="./index.html">Back home</a>
-          <p class="page-404__text">
-            You can go back home or contact us to find the info you’ve been
-            looking for.
-          </p>
-        </div>
-      </section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="404.error.partial.html"
+      ></section>
     </main>
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.footer.partial.html"
+    ></footer>
   </body>
 </html>
