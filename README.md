@@ -13,18 +13,18 @@ And htmx to load partials
 
 ```js
 function init() {
-  import("...js");
+  import('...js')
 }
 
 const totalPartials = document.querySelectorAll(
   '[hx-trigger="load"], [data-hx-trigger="load"]'
-).length;
-let loadedPartialsCount = 0;
+).length
+let loadedPartialsCount = 0
 
-document.body.addEventListener("htmx:afterOnLoad", () => {
-  loadedPartialsCount++;
-  if (loadedPartialsCount === totalPartials) init();
-});
+document.body.addEventListener('htmx:afterOnLoad', () => {
+  loadedPartialsCount++
+  if (loadedPartialsCount === totalPartials) init()
+})
 ```
 
 Add the data-proofer-ignore attribute to any tag to ignore it from every check.
@@ -43,14 +43,13 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarkiianSenkiv)
   Markiian Senkiv **Front End Developer**
-  
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)
   Oleksandr Kopytin **Front End Developer**
 
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micromoleckula)
   Dmytro Prokopenko **Front End Developer**
 
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuliiashpylkatestqa)
   Yuliia Shpylka **Front End Developer**
 
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KravetsVA)
@@ -61,4 +60,3 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)
   Anhelina Lytovchenko **Front End Developer**
-
