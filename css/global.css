@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --line-color: #30313d;
+  --bg-color: #1a1b28;
+  --bg-alfa: rgba(26, 27, 40, 0.9);
+  --main-color: #ffffff;
+  --text-color: #cccccc;
+  --accent-orange: #ff7433;
+  --accent-magenta: #e100ff;
+  --accent-violet: #7e01ff;
+  --accent-blue: #4858f9;
+  --accent-pink: #fe226a;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", serif;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  background-image: url(../images/global/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+.bg-color {
+  background-color: var(--bg-alfa);
+}

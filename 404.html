@@ -7,7 +7,7 @@
     <title>404</title>
     <link
       rel="shortcut icon"
-      href="https://placekitten.com/96/139"
+      href="images/global/favicon.png"
       type="image/x-icon"
     />
     <script
@@ -15,8 +15,27 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <h1>Oops! Page not found...</h1>
+    <header class="header">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+    </header>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="404.error.partial.html"
+      ></section>
+    </main>
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.footer.partial.html"
+    ></footer>
   </body>
 </html>
