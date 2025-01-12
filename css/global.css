@@ -9,7 +9,9 @@
 }
 
 :root {
+  --line-color: #30313d;
   --bg-color: #1a1b28;
+  --bg-alfa: rgba(26, 27, 40, 0.9);
   --main-color: #ffffff;
   --text-color: #cccccc;
   --accent-orange: #ff7433;
@@ -75,4 +77,8 @@ textarea,
 select,
 button {
   font: inherit;
+}
+
+.bg-color {
+  background-color: var(--bg-alfa);
 }
