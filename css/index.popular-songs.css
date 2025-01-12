@@ -85,6 +85,7 @@
 
 .popular-songs__genre {
   font-size: 12px;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--accent-orange);
   margin-top: 10px;
