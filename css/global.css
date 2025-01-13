@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 *,
 *::before,
@@ -15,6 +15,7 @@
   --bg-alfa: rgba(26, 27, 40, 0.9);
   --main-color: #ffffff;
   --text-color: #cccccc;
+  --link-text-color: #dbdbdb;
   --accent-orange: #ff7433;
   --accent-magenta: #e100ff;
   --accent-vivid-violet: #7e01ff;
