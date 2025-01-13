@@ -1,0 +1,68 @@
+.cover__title {
+  font-family: "Righteous", cursive;
+  font-size: 56px;
+}
+
+.cover__subtitle {
+  font-family: "Righteous", cursive;
+  font-size: 68px;
+  color: var(--main-color);
+}
+
+.cover__description {
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.cover__text {
+  color: var(--text-color);
+}
+
+.cover__tagline {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 19.5px;
+}
+
+.cover__decorator svg {
+  display: block;
+  height: 35px;
+  width: 30%;
+}
+
+.cover__icon {
+  width: 50px;
+  height: auto;
+  color: var(--accent-pure-violet);
+}
+
+.cover__frequency {
+  font-size: 26px;
+}
+
+.cover__title-icon {
+  color: var(--accent-orange);
+  font-size: 56px;
+}
+
+.cover__platforms {
+  color: var(--text-light-grey);
+}
+
+.cover__platforms-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cover__platforms-icon {
+  width: 24px;
+  height: 20px;
+}
+
+.cover__image {
+  width: 100%;
+  height: 100%;
+}
