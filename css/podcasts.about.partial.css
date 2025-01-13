@@ -1,0 +1,41 @@
+.about__container {
+  text-align: left;
+}
+.about__title,
+.about__subtitle {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.about__title-icon {
+  color: var(--accent-pure-violet);
+  font-size: 34px;
+  font-family: "Righteous", cursive;
+}
+
+.about__text,
+.episodes-item__description {
+  color: var(--text-color);
+}
+
+.episodes-item__host,
+.episodes-item__date {
+  font-weight: bold;
+}
+
+.episodes-item__host {
+  font-size: 14px;
+}
+.episodes-item__date {
+  font-size: 15px;
+}
+
+.episodes-item__podcast-number {
+  font-weight: 700;
+}
+
+.episodes__social-icon{
+    fill: var(--accent-orange);
+}
+
