@@ -47,20 +47,19 @@
   font-size: 56px;
 }
 
+.cover__platforms {
+  color: var(--text-light-grey);
+}
+
 .cover__platforms-title {
   text-transform: uppercase;
   font-size: 12px;
-  color: (--link-text-color);
   font-weight: 700;
 }
 
 .cover__platforms-icon {
   width: 24px;
   height: 20px;
-}
-
-.cover_platforms-item {
-  color: (--link-text-color);
 }
 
 .cover__image {
