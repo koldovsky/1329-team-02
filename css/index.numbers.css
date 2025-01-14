@@ -38,11 +38,11 @@
         padding-top: 50px;
   
         .numbers__point {
-          color: #7f00ff;
+          color: var(--accent-pure-violet);
         }
   
         .numbers__highlight {
-          color: #e100ff;
+          color: var(--accent-magenta);
         }
       }
   
@@ -62,7 +62,7 @@
       padding-bottom: 30px;
   
       .numbers__cta {
-        background-color: rgb(42, 2, 57);
+        background-color: var(--accent-gothic-violet);
         padding: 39px 45px 39px 45px;
   
         .numbers__cta-label {

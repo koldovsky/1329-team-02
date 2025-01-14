@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
 
 *,
 *::before,
@@ -12,14 +11,16 @@
 :root {
   --line-color: #30313d;
   --bg-color: #1a1b28;
-  --bg-alfa: rgba(26, 27, 40, 0.9);
+  --bg-alfa: rgba(26, 27, 40, 0.95);
   --main-color: #ffffff;
   --text-color: #cccccc;
   --text-light-grey: #dbdbdb;
   --accent-orange: #ff7433;
   --accent-magenta: #e100ff;
+  --accent-gothic-violet: #2A0239;
   --accent-vivid-violet: #7e01ff;
   --accent-pure-violet: #7f00ff;
+  --accent-infinity-violet: #3e00fa;
   --accent-blue: #4858f9;
   --accent-pink: #fe226a;
 }
@@ -30,11 +31,12 @@ html {
 }
 
 body {
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
   font-size: 16px;
   color: var(--main-color);
+  background: linear-gradient(var(--bg-alfa), var(--bg-alfa)),
+    url(../images/global/bg-image.png);
   background-color: var(--bg-color);
-  background-image: url(../images/global/bg-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,6 +84,23 @@ button {
   font: inherit;
 }
 
-.bg-color {
-  background-color: var(--bg-alfa);
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 64px;
+  }
 }
