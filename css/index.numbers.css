@@ -1,0 +1,89 @@
+.numbers {
+    padding-top: 110px;
+    padding-bottom: 40px;
+  
+    .numbers__label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-light-grey);
+      padding-bottom: 15px;
+    }
+  
+    .numbers__title {
+      font-size: 30px;
+      font-family: "Righteous", cursive;
+      color: var(--main-color);
+      padding-bottom: 30px;
+    }
+  
+    .numbers__subtitle {
+      font-size: 19px;
+      color: var(--text-color);
+      padding-bottom: 30px;
+    }
+  
+    .numbers__image {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  
+    .numbers__stat {
+      text-align: center;
+  
+      .numbers__value {
+        font-family: "Righteous", cursive;
+        font-size: 56px;
+        padding-top: 50px;
+  
+        .numbers__point {
+          color: #7f00ff;
+        }
+  
+        .numbers__highlight {
+          color: #e100ff;
+        }
+      }
+  
+      .numbers__stat-label {
+        font-size: 14px;
+        padding: 5px 0;
+      }
+  
+      .numbers__stat-description {
+        font-size: 16px;
+        padding: 10px 0;
+      }
+    }
+  
+    .numbers__content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  
+      .numbers__cta {
+        background-color: rgb(42, 2, 57);
+        padding: 39px 45px 39px 45px;
+  
+        .numbers__cta-label {
+          font-size: 12px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: var(--accent-orange);
+        }
+  
+        .numbers__cta-title {
+          font-size: 24px;
+          font-weight: 700;
+          padding: 20px 0;
+        }
+  
+        .numbers__cta-subtitle {
+          font-size: 19px;
+          color: rgba(255, 255, 255, 0.7);
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  
