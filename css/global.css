@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
 
 *,
 *::before,
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
   font-size: 16px;
   color: var(--main-color);
   background: linear-gradient(var(--bg-alfa), var(--bg-alfa)),
