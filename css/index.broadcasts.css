@@ -3,6 +3,11 @@
     padding: 60px 0px 110px;
 }
 
+.container {
+    width: 100%;
+    max-width: 1280px;
+}
+
 .broadcasts__header{
     padding: 0px 15px;
     display: flex;
@@ -25,7 +30,6 @@
     font-size: 18px;
     margin: 50px 0px 50px;
     padding: 0px 15px;
-
 }
 
 .podcast-card__icon {
@@ -63,7 +67,7 @@
     .broadcasts__header { 
         flex-direction: row;
         justify-content: space-around;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
     .broadcasts__wrapper {
         align-items: flex-start; 
@@ -75,9 +79,11 @@
         margin: 0; 
         padding-left: 15px; 
         text-align: left; 
+        font-size: 21px;
     }
     .broadcasts__icon {
         margin-bottom: 10px;
+        font-size: 38px;
     }
 }
 
