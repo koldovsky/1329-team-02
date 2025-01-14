@@ -59,7 +59,7 @@
 }
 
 .footer__links-link {
-  color: rgb(219,219,219);
+  color: rgb(219, 219, 219);
 }
 
 .footer__service-icon {
@@ -94,15 +94,13 @@
   .footer__container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 50px;
+    padding: 80px 50px 0 50px;
   }
 
   .footer__logo-container {
     margin: 0;
     max-width: 440px;
     padding-right: 20px;
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     text-align: left;
   }
@@ -133,7 +131,7 @@
   .footer__links-link {
     transition: color 0.3s ease;
   }
-  
+
   .footer__links-link:hover {
     color: rgb(141, 2, 255);
   }
@@ -162,7 +160,6 @@
   }
 
   .footer__bottom {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 0;
