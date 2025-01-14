@@ -35,7 +35,6 @@
   font-weight: 700;
 }
 
-.episodes__social-icon{
-    fill: var(--accent-orange);
+.episodes__social-icon {
+  fill: var(--accent-orange);
 }
-
