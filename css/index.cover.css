@@ -64,14 +64,21 @@
 
 .cover__platforms {
   display: flex;
-  flex-direction: column;
   color: var(--text-light-grey);
 }
 
 .cover__platforms-title {
+  margin-top: 30px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
+}
+
+.cover__platforms-group {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .cover__platforms-icon {
@@ -79,20 +86,10 @@
   height: 20px;
 }
 
-.cover__platforms-list {
-  display: flex;
-  gap: 15px;
-}
-
-.cover__platforms-group {
-  margin-top: 30px;
-}
-
 .cover__platforms-item {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 15px;
 }
 
 .cover__image {
