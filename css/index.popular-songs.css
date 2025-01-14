@@ -1,102 +1,102 @@
 .popular-songs {
   padding: 60px 0;
-}
 
-.popular-songs__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 60px;
-  position: relative;
-}
+  .popular-songs__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    position: relative;
 
-.popular-songs__header::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: var(--line-color);
-}
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: var(--line-color);
+    }
+  }
 
-.popular-songs__title-icon {
-  font-size: 38px;
-  font-family: "Righteous", serif;
-  color: var(--accent-magenta);
-}
+  .popular-songs__title-icon {
+    font-size: 38px;
+    font-family: "Righteous", serif;
+    color: var(--accent-magenta);
+  }
 
-.popular-songs__title {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: var(--text-color);
-}
+  .popular-songs__title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
 
-.popular-songs__description {
-  font-size: 21px;
-  width: 450px;
-}
+  .popular-songs__description {
+    font-size: 21px;
+    width: 450px;
 
-.popular-songs__highlight {
-  font-weight: bold;
-  text-decoration: underline;
-}
+    .popular-songs__highlight {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
 
-.popular-songs__slider {
-  padding-top: 60px;
-  position: relative;
-}
+  .popular-songs__slider {
+    padding-top: 60px;
+    position: relative;
 
-.popular-songs__button {
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-}
+    .popular-songs__button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
 
-.popular-songs__button--prev {
-  left: 0;
-}
+      .popular-songs__icon {
+        fill: var(--text-color);
+        transition: fill 0.3s ease;
+        width: 30px;
+        height: 30px;
+      }
 
-.popular-songs__button--next {
-  right: 0;
-}
+      &:hover {
+        fill: var(--main-color);
+      }
+    }
 
-.popular-songs__icon {
-  fill: var(--text-color);
-  transition: fill 0.3s ease;
-  width: 30px;
-  height: 30px;
-}
+    .popular-songs__button--prev {
+      left: 0;
+    }
 
-.popular-songs__icon:hover {
-  fill: var(--main-color);
-}
+    .popular-songs__button--next {
+      right: 0;
+    }
+  }
 
-.popular-songs__list {
-  display: flex;
-  gap: 30px;
-}
+  .popular-songs__list {
+    display: flex;
+    gap: 30px;
 
-.popular-songs__image {
-  width: 263px;
-}
+    .popular-songs__image {
+      width: 263px;
+    }
 
-.popular-songs__genre {
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: var(--accent-orange);
-  margin-top: 10px;
-}
+    .popular-songs__genre {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--accent-orange);
+      margin-top: 10px;
+    }
 
-.popular-songs__name {
-  font-size: 24px;
-  margin-top: 10px;
-}
+    .popular-songs__name {
+      font-size: 24px;
+      margin-top: 10px;
+    }
 
-.popular-songs__artist {
-  color: var(--text-color);
-  margin-top: 10px;
+    .popular-songs__artist {
+      color: var(--text-color);
+      margin-top: 10px;
+    }
+  }
 }
