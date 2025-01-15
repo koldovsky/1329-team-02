@@ -1,6 +1,6 @@
 .footer {
   background: var(--bg-color);
-  color: #fff;
+  color: var(--main-color);
   padding: 80px 24px 10px;
 }
 
@@ -19,7 +19,7 @@
 
 .footer__logo-text {
   margin-bottom: 30px;
-  color: rgb(219, 219, 219);
+  color: var(--text-light-grey);
 }
 
 .footer__nav {
@@ -59,7 +59,7 @@
 }
 
 .footer__links-link {
-  color: rgb(219, 219, 219);
+  color: var(--text-light-grey);
 }
 
 .footer__service-icon {
@@ -76,14 +76,25 @@
 .footer__bottom-text {
   font-size: 15px;
   margin-bottom: 12px;
-  color: rgb(219, 219, 219);
+  color: var(--text-light-grey);
 }
 
 .footer__divider {
+  position: relative;
   height: 1px;
   width: 100%;
-  background-color: rgb(173, 173, 173);
+  background-color: transparent;
   margin-bottom: 12px;
+}
+
+.footer__divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--line-color-footer);
 }
 
 @media screen and (min-width: 1040px) {
