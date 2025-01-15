@@ -221,8 +221,12 @@
   }
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1280px) {
   .container {
     padding: 0 15px;
+  }
+
+  .broadcasts__description {
+    padding-right: 15px;
   }
 }
