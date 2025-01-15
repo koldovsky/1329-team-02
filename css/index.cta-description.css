@@ -17,11 +17,11 @@
 }
 
 .cta-description__accent {
-  color: var(--accent-vivid-violet);
+  color: var(--accent-magenta);
 }
 
 .cta-description__color {
-  color: var(--accent-vivid-violet);
+  color: var(--accent-pure-violet);
 }
 
 @media screen and (min-width: 1000px) {

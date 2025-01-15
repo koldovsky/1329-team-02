@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-.footer__socials {
+.footer__social-list {
   display: flex;
 }
 
@@ -144,7 +144,7 @@
   }
 
   .footer__links-link:hover {
-    color: rgb(141, 2, 255);
+    color: var(--accent-vivid-violet);
   }
 
   .footer__links-title {
