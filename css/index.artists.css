@@ -1,34 +1,218 @@
 .artists {
+  padding: 60px 0;
+
   .artists__title {
+    font-size: 30px;
+    font-family: var(--font-secondary);
+    padding-bottom: 20px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: var(--line-color);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .artists__title {
+      font-size: 34px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .artists__title {
+      font-size: 38px;
+    }
   }
 
   .artists__slider {
+    padding-top: 60px;
+    position: relative;
+
     .artists__button {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
+      background-color: var(--bg-slider-btn);
+      border: none;
+      border-radius: 50%;
+
+      .artists__icon {
+        fill: var(--text-color);
+        transition: fill 0.3s ease;
+        width: 15px;
+        height: 15px;
+
+        &:hover {
+          fill: var(--main-color);
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .artists__icon {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        .artists__icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .artists__button {
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .artists__button {
+        background-color: transparent;
+        border: none;
+      }
     }
 
     .artists__button--prev {
+      left: -4%;
+    }
+
+    @media screen and (min-width: 768px) {
+      .artists__button--prev {
+        left: -2%;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .artists__button--prev {
+        left: -4%;
+      }
     }
 
     .artists__button--next {
+      right: -4%;
     }
 
-    .artists__icon {
+    @media screen and (min-width: 768px) {
+      .artists__button--next {
+        right: -2%;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .artists__button--next {
+        right: -4%;
+      }
     }
 
     .artists__list {
+      display: flex;
+      gap: 30px;
+      transition: transform 0.3s ease;
+      overflow: hidden;
+
       .artists__item {
+        flex: 0 0 auto;
+        width: 100%;
       }
 
-      .artists__card {
+      @media screen and (min-width: 768px) {
+        .artists__item {
+          width: calc(50% - 15px);
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        .artists__item {
+          width: calc(25% - 22.5px);
+        }
       }
 
       .artists__image {
+        width: 327px;
+        height: 322px;
+        object-fit: cover;
+      }
+
+      @media screen and (min-width: 768px) {
+        .artists__image {
+          width: 337px;
+          height: 332px;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        .artists__image {
+          width: 327px;
+          height: 322px;
+        }
       }
 
       .artists__name {
+        font-size: 22px;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      .artists__name::after {
+        content: '';
+        position: absolute;
+        bottom: -22px;
+        left: 0;
+        width: 48px;
+        height: 5px;
+        background-color: transparent;
+      }
+
+      @media screen and (min-width: 768px) {
+        .artists__name {
+          font-size: 23px;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        .artists__name {
+          font-size: 24px;
+        }
+      }
+
+      .artist-1::after {
+        background-color: var(--accent-magenta);
+      }
+
+      .artist-2::after {
+        background-color: var(--accent-orange);
+      }
+
+      .artist-3::after {
+        background-color: var(--accent-vivid-violet);
+      }
+
+      .artist-4::after {
+        background-color: var(--accent-orange);
+      }
+
+      .artist-5::after {
+        background-color: var(--accent-blue);
       }
 
       .artists__location {
+        color: var(--text-color);
       }
     }
   }
