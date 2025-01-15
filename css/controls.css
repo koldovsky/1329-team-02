@@ -1,12 +1,50 @@
+.header__btn {
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  padding: 14px 35px;
+  font-size: 14.3px;
+  font-weight: 600;
+
+  .header__btn-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__btn-icon {
+    position: absolute;
+  }
+
+  .header__btn-text {
+    position: relative;
+    padding-left: 32px;
+  }
+
+  background-image: var(--button-gradient);
+  color: var(--main-color);
+
+  &:hover {
+    background-image: var(--button-hover-gradient);
+  }
+}
+
 .button {
-    display: inline-block;
-    padding: 12px 35px 12px 35px;
-    text-align: center;
-    border-radius: 30px;
-    background-image: linear-gradient(-315deg, var(--accent-magenta), var(--accent-infinity-violet));
-    color: var(--main-color);
-    
-    &:hover {
-        background-image: linear-gradient(-315deg, var(--accent-infinity-violet), var(--accent-magenta));
-    }
+  display: inline-block;
+  padding: 12px 35px 12px 35px;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    -315deg,
+    var(--accent-magenta),
+    var(--accent-infinity-violet)
+  );
+  color: var(--main-color);
+
+  &:hover {
+    background-image: linear-gradient(
+      -315deg,
+      var(--accent-infinity-violet),
+      var(--accent-magenta)
+    );
+  }
 }

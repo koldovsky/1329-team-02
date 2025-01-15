@@ -14,10 +14,20 @@
   --bg-alfa: rgba(26, 27, 40, 0.95);
   --main-color: #ffffff;
   --text-color: #cccccc;
+  --button-gradient: linear-gradient(
+    -315deg,
+    var(--accent-magenta),
+    var(--accent-infinity-violet)
+  );
+  --button-hover-gradient: linear-gradient(
+    -315deg,
+    var(--accent-infinity-violet),
+    var(--accent-magenta)
+  );
   --text-light-grey: #dbdbdb;
   --accent-orange: #ff7433;
   --accent-magenta: #e100ff;
-  --accent-gothic-violet: #2A0239;
+  --accent-gothic-violet: #2a0239;
   --accent-vivid-violet: #7e01ff;
   --accent-pure-violet: #7f00ff;
   --accent-infinity-violet: #3e00fa;
