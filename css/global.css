@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
 
 *,
 *::before,
@@ -9,6 +9,8 @@
 }
 
 :root {
+  --font-primary: 'Noto Sans', sans-serif;
+  --font-secondary: 'Righteous', serif;
   --line-color: #30313d;
   --bg-color: #1a1b28;
   --bg-alfa: rgba(26, 27, 40, 0.95);
@@ -42,7 +44,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans", serif;
+  font-family: var(--font-primary);
   font-size: 16px;
   color: var(--main-color);
   background: linear-gradient(var(--bg-alfa), var(--bg-alfa)),
