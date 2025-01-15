@@ -1,0 +1,35 @@
+.artists {
+  .artists__title {
+  }
+
+  .artists__slider {
+    .artists__button {
+    }
+
+    .artists__button--prev {
+    }
+
+    .artists__button--next {
+    }
+
+    .artists__icon {
+    }
+
+    .artists__list {
+      .artists__item {
+      }
+
+      .artists__card {
+      }
+
+      .artists__image {
+      }
+
+      .artists__name {
+      }
+
+      .artists__location {
+      }
+    }
+  }
+}
