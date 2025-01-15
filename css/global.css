@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
 
 *,
 *::before,
@@ -17,8 +17,10 @@
   --text-light-grey: #dbdbdb;
   --accent-orange: #ff7433;
   --accent-magenta: #e100ff;
+  --accent-gothic-violet: #2A0239;
   --accent-vivid-violet: #7e01ff;
   --accent-pure-violet: #7f00ff;
+  --accent-infinity-violet: #3e00fa;
   --accent-blue: #4858f9;
   --accent-dark-blue: #3e00fa;
   --accent-pink: #fe226a;
@@ -30,7 +32,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
   font-size: 16px;
   color: var(--main-color);
   background: linear-gradient(var(--bg-alfa), var(--bg-alfa)),
