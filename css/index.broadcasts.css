@@ -1,5 +1,5 @@
 .broadcasts {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding: 60px 0px 110px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .broadcasts__icon {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   font-size: 30px;
   color: var(--accent-pure-violet);
   margin-bottom: 0px;
@@ -147,11 +147,13 @@
 }
 
 .podcast-card__button-ref:hover {
+
   background-image: linear-gradient(315deg, var(--accent-magenta), var(--accent-infinity-violet));
+
 }
 
 .podcast-card__description:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;

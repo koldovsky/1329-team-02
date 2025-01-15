@@ -59,7 +59,18 @@
 
     .header__menu {
       display: flex;
-      gap: 10px;
+      gap: 15px;
+    }
+
+    .header__menu-item {
+      font-size: 15px;
+      .header__menu-link {
+        color: var(--text-color);
+
+        &:hover {
+          color: var(--main-color);
+        }
+      }
     }
   }
 }
