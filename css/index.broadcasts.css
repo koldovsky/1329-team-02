@@ -188,6 +188,7 @@
     padding: 0px 0px;
     text-align: left;
     font-size: 19px;
+    padding-right: 15px;
   }
 
   .broadcasts__icon {
@@ -210,6 +211,7 @@
 
   .broadcasts__description {
     font-size: 21px;
+    padding-right: 15px;
   }
 
   .podcast-card__title {
