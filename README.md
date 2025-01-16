@@ -61,4 +61,4 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)
   Anhelina Lytovchenko **Front End Developer**
   
-  <!--Roman Lytvynenko-->
+Roman Lytvynenko
