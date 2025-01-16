@@ -8,7 +8,7 @@
     position: relative;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       bottom: 0;
       left: 0;
@@ -35,7 +35,7 @@
 
   .popular-songs__title-icon {
     font-size: 30px;
-    font-family: "Righteous", serif;
+    font-family: var(--font-secondary);
     color: var(--accent-magenta);
   }
 
@@ -89,21 +89,41 @@
     position: relative;
 
     .popular-songs__button {
-      background-color: transparent;
-      border: none;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       position: absolute;
       top: 60%;
       transform: translateY(-50%);
+      background-color: var(--bg-slider-btn);
+      border: none;
+      border-radius: 50%;
 
       .popular-songs__icon {
         fill: var(--text-color);
         transition: fill 0.3s ease;
-        width: 30px;
-        height: 30px;
+        width: 15px;
+        height: 15px;
       }
 
       &:hover {
         fill: var(--main-color);
+      }
+
+      @media screen and (min-width: 768px) {
+        .popular-songs__icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .popular-songs__button {
+        background-color: transparent;
+        border: none;
       }
     }
 
@@ -119,7 +139,6 @@
   .popular-songs__list {
     display: flex;
     gap: 30px;
-
     transition: transform 0.3s ease;
     overflow: hidden;
 

@@ -1,6 +1,6 @@
 .footer {
-  background: rgb(21, 22, 34);
-  color: #fff;
+  background: var(--footer-bg);
+  color: var(--main-color);
   padding: 80px 24px 10px;
 }
 
@@ -19,7 +19,7 @@
 
 .footer__logo-text {
   margin-bottom: 30px;
-  color: rgb(219, 219, 219);
+  color: var(--text-light-grey);
 }
 
 .footer__nav {
@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-.footer__socials {
+.footer__social-list {
   display: flex;
 }
 
@@ -50,7 +50,10 @@
 
 .footer__social-item {
   margin-right: 7px;
+  fill: var(--main-color);
+  transition: all 0.3s;
 }
+
 
 .footer__links-item {
   display: flex;
@@ -59,7 +62,7 @@
 }
 
 .footer__links-link {
-  color: rgb(219, 219, 219);
+  color: var(--text-light-grey);
 }
 
 .footer__service-icon {
@@ -76,14 +79,25 @@
 .footer__bottom-text {
   font-size: 15px;
   margin-bottom: 12px;
-  color: rgb(219, 219, 219);
+  color: var(--main-color);
 }
 
 .footer__divider {
+  position: relative;
   height: 1px;
   width: 100%;
-  background-color: rgb(173, 173, 173);
+  background-color: transparent;
   margin-bottom: 12px;
+}
+
+.footer__divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--line-color-footer);
 }
 
 @media screen and (min-width: 1040px) {
@@ -99,7 +113,7 @@
 
   .footer__logo-container {
     margin: 0;
-    max-width: 440px;
+    max-width: 470px;
     padding-right: 20px;
     align-items: flex-start;
     text-align: left;
@@ -113,6 +127,14 @@
     display: block;
   }
 
+  .footer__links-nav {
+    padding-right: 50px;
+  }
+
+  .footer__links-column--third {
+    width: 250px;
+  }
+
   .footer__social-item {
     margin-right: 7px;
   }
@@ -124,6 +146,10 @@
     margin-bottom: 80px;
   }
 
+  .footer__social-item:hover {
+    fill: var(--accent-vivid-violet);
+  }
+
   .footer__links {
     display: flex;
   }
@@ -133,7 +159,7 @@
   }
 
   .footer__links-link:hover {
-    color: rgb(141, 2, 255);
+    color: var(--accent-vivid-violet);
   }
 
   .footer__links-title {
@@ -146,11 +172,11 @@
   }
 
   .footer__links-column--first {
-    padding-right: 100px;
+    margin-right: 50px;
   }
 
   .footer__links-column--second {
-    padding-right: 100px;
+    margin-right: 30px;
   }
 
   .footer__nav {

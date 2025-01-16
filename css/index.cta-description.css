@@ -7,7 +7,7 @@
 .cta-description__title {
   font-size: 12px;
   font-weight: 700;
-  color: #dbdbdb;
+  color: var(--text-light-grey);
   padding-bottom: 15px;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .cta-description__accent {
-  color: #e100ff;
+  color: var(--accent-magenta);
 }
 
 .cta-description__color {
-  color: #7f00ff;
+  color: var(--accent-pure-violet);
 }
 
 @media screen and (min-width: 1000px) {

@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 35px;
-  background-color: #2b2b48;
+  background-color: var(--bg-color-podcasts-cards);
   margin-bottom: 30px;
 }
 
@@ -46,17 +46,17 @@
 
 .episodes__card-text {
   font-size: 16px;
-  color: #cccccc;
+  color: var(--text-color);
   margin-bottom: 30px;
 }
 
 .episodes__button {
-  background: linear-gradient(to right, #e100ff, #7f00ff);
+  background: var(--button-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 10px;
-  color: #ffffff;
+  color: var(--main-color);
   font-size: 14px;
   font-weight: 700;
   border: none;
@@ -66,7 +66,7 @@
 }
 
 .episodes__button:hover {
-  background: linear-gradient(to right, #7f00ff, #e100ff);
+  background: var(--button-hover-gradient);
 }
 
 @media screen and (min-width: 430px) {

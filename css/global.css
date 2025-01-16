@@ -9,11 +9,23 @@
 }
 
 :root {
+  --font-primary: 'Noto Sans', sans-serif;
+  --font-secondary: 'Righteous', serif;
   --line-color: #30313d;
   --bg-color: #1a1b28;
   --bg-alfa: rgba(26, 27, 40, 0.95);
   --main-color: #ffffff;
   --text-color: #cccccc;
+  --text-light-grey: #dbdbdb;
+  --bg-slider-btn: #000000;
+  --accent-orange: #ff7433;
+  --accent-magenta: #e100ff;
+  --accent-gothic-violet: #2a0239;
+  --accent-vivid-violet: #7e01ff;
+  --accent-pure-violet: #7f00ff;
+  --accent-infinity-violet: #3e00fa;
+  --accent-blue: #4858f9;
+  --accent-pink: #fe226a;
   --button-gradient: linear-gradient(
     -315deg,
     var(--accent-magenta),
@@ -24,16 +36,9 @@
     var(--accent-infinity-violet),
     var(--accent-magenta)
   );
-  --text-light-grey: #dbdbdb;
-  --accent-orange: #ff7433;
-  --accent-magenta: #e100ff;
-  --accent-gothic-violet: #2a0239;
-  --accent-vivid-violet: #7e01ff;
-  --accent-pure-violet: #7f00ff;
-  --light-shade-color: #2b2b48;
-  --accent-infinity-violet: #3e00fa;
-  --accent-blue: #4858f9;
-  --accent-pink: #fe226a;
+  --bg-color-podcasts-cards: #2b2b48;
+  --line-color-footer: rgb(173, 173, 173);
+  --footer-bg: #161624;
 }
 
 html {
@@ -42,7 +47,7 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans', serif;
+  font-family: var(--font-primary);
   font-size: 16px;
   color: var(--main-color);
   background: linear-gradient(var(--bg-alfa), var(--bg-alfa)),
