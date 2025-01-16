@@ -1,0 +1,64 @@
+.daily-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 120px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.daily-program__title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.daily-program__description {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.daily-program__table {
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 1rem;
+}
+
+.daily-program__table th,
+.daily-program__table td {
+  padding: 1.5rem 1rem; /* Однакові відступи */
+  color: #f2f2f2;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.daily-program__table th {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #f2994a; /* Оранжевий колір для часу */
+  font-weight: bold;
+}
+
+.daily-program__table th:first-child {
+  color: #aaa; /* Сірий колір для "Day/Time" */
+}
+
+.daily-program__table td:first-child {
+  font-weight: bold;
+  color: #fff; /* Білий колір для днів */
+}
+
+.daily-program__table th:nth-child(n + 2) {
+  color: #f2994a; /* Оранжевий колір для часу */
+  font-weight: bold;
+}
+
+.daily-program__table tr:last-child td {
+  border-bottom: none;
+}
