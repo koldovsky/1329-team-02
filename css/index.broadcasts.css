@@ -21,13 +21,10 @@
   gap: 40px;
 
   @media screen and (min-width: 768px) {
-
     & {
       grid-template-columns: 1fr 1fr;
     }
-
   }
-
 }
 
 .podcast-card {
@@ -147,9 +144,11 @@
 }
 
 .podcast-card__button-ref:hover {
-
-  background-image: linear-gradient(315deg, var(--accent-magenta), var(--accent-infinity-violet));
-
+  background-image: linear-gradient(
+    -315deg,
+    var(--accent-infinity-violet),
+    var(--accent-magenta)
+  );
 }
 
 .podcast-card__description:after {
@@ -200,7 +199,7 @@
   }
 }
 
-@media screen and (min-width: 980px) { 
+@media screen and (min-width: 980px) {
   .container {
     padding: 0 40px;
   }
