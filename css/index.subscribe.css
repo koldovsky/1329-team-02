@@ -1,0 +1,10 @@
+.broadcasts {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 40px 0px 120px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+  }
