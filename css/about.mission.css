@@ -10,6 +10,7 @@
   color: var(--text-light-grey);
   font-size: 18px;
   font-variant-caps: all-petite-caps;
+  font-weight: 600;
 }
 
 .mission__title-icon {
@@ -19,6 +20,7 @@
 
 .mission__number {
   margin-right: 20px;
+  font-weight: 700;
 }
 
 .mission__list {
@@ -28,7 +30,7 @@
 
 .mission__subtitle {
   margin-top: 25px;
-  
+  font-weight: 400;
 }
 
 .mission__description {
@@ -62,7 +64,7 @@
 }
 
 .story__divider::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
