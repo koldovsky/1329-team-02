@@ -11,3 +11,8 @@
 @import './podcasts.about.css';
 @import './podcasts.episodes.css';
 @import "./index.subscribe.css";
+@import './about.story.css';
+@import './about.mission.css';
+@import './program.css';
+@import './contacts.location.css';
+

@@ -1,0 +1,89 @@
+.location {
+  padding-top: 40px;
+
+  .location__content {
+    padding-bottom: 40px;
+
+    .location__title {
+      font-size: 56px;
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      .location__title {
+        font-size: 68px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .location__link {
+      font-size: 12px;
+      color: var(--text-color);
+      text-transform: uppercase;
+      margin-bottom: 30px;
+
+      .hero__route {
+        color: var(--accent-orange);
+        text-decoration: underline;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .location__link {
+        margin-bottom: 0;
+      }
+    }
+
+    .location__description {
+      font-size: 19px;
+      color: var(--text-color);
+    }
+
+    @media screen and (min-width: 768px) {
+      .location__description {
+        width: 337px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .location__description {
+        width: 551px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .location__content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .location__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .location__map {
+    width: 327px;
+    height: 450px;
+    padding: 40px 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    .location__map {
+      width: 704px;
+      height: 550px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .location__map {
+      width: 1170px;
+      height: 650px;
+    }
+  }
+}
