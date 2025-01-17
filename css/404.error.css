@@ -8,8 +8,22 @@
     align-items: center;
 
     .page-404__title {
-      font-size: 24px;
+      font-size: 28px;
       margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 768px) {
+      .page-404__title {
+        font-size: 48px;
+        margin-bottom: 60px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .page-404__title {
+        font-size: 68px;
+        margin-bottom: 80px;
+      }
     }
 
     .page-404__image {
@@ -20,6 +34,7 @@
     .page-404__text {
       color: var(--text-color);
       margin-bottom: 40px;
+      text-align: center;
     }
   }
 }
