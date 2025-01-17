@@ -1,20 +1,21 @@
 .page-404 {
   padding: 40px 0;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.page-404__title {
-  font-size: 24px;
-  margin-bottom: 40px;
-}
+  .page-404__title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
 
-.page-404__image {
-  width: 335px;
-  margin-bottom: 40px;
-}
+  .page-404__image {
+    width: 335px;
+    margin-bottom: 40px;
+  }
 
-.page-404__text {
-  color: var(--text-color);
-}
-
-.page-404__link {
+  .page-404__text {
+    color: var(--text-color);
+    margin-bottom: 40px;
+  }
 }
