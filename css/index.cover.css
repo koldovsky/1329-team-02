@@ -119,6 +119,10 @@
     margin-block-start: 0;
   }
 
+  .cover__tagline {
+    justify-content: center;
+  }
+
   .cover__subtitle,
   .cover__title,
   .cover__tagline-container,
