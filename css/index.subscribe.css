@@ -10,9 +10,6 @@
   width: 100%;
 }
 
-.subscribe__container {
-}
-
 .subscribe__wrapper {
   background-color: var(--light-shade-color);
   justify-content: center;
@@ -107,6 +104,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .subscribe__title {
+    font-size: 34px;
+  }
+
   .subscribe__wrapper {
     flex-direction: row;
     justify-content: space-between;
@@ -116,6 +121,7 @@
   .subscribe__text {
     flex: 2;
     text-align: left;
+    padding: 34px;
   }
 
   .form__container {
@@ -125,6 +131,7 @@
     align-items: stretch;
     height: 100%;
     height: auto;
+    padding: 34px 28px;
   }
 
   .subscribe__input,
@@ -134,7 +141,29 @@
 }
 
 @media screen and (min-width: 980px) {
+  .container {
+    padding: 0 40px;
+  }
+  .subscribe__title {
+    font-size: 38px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+
+  .subscribe__text {
+    padding: 40px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .subscribe__text {
+    padding: 40px;
+  }
+
+  .form__container {
+    padding: 40px 30px;
+  }
 }
