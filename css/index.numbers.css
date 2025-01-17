@@ -2,68 +2,124 @@
   padding-top: 110px;
   padding-bottom: 40px;
 
-  .numbers__label {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--text-light-grey);
-    padding-bottom: 15px;
-  }
+  .numbers__header {
+    display: flex;
+    flex-direction: column;
 
-  .numbers__title {
-    font-size: 30px;
-    font-family: "Righteous", cursive;
-    color: var(--main-color);
-    padding-bottom: 30px;
-  }
-
-  .numbers__subtitle {
-    font-size: 19px;
-    color: var(--text-color);
-    padding-bottom: 30px;
-  }
-
-  .numbers__image {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .numbers__stat {
-    text-align: center;
-
-    .numbers__value {
-      font-family: "Righteous", cursive;
-      font-size: 56px;
-      padding-top: 50px;
-
-      .numbers__point {
-        color: var(--accent-pure-violet);
-      }
-
-      .numbers__highlight {
-        color: var(--accent-magenta);
-      }
+    .numbers__label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-light-grey);
+      padding-bottom: 15px;
     }
 
-    .numbers__stat-label {
-      font-size: 14px;
-      padding: 5px 0;
+    .numbers__title {
+      font-size: 30px;
+      font-family: 'Righteous', cursive;
+      color: var(--main-color);
+      padding-bottom: 30px;
     }
 
-    .numbers__stat-description {
-      font-size: 16px;
-      padding: 10px 0;
+    .numbers__subtitle {
+      font-size: 19px;
+      color: var(--text-color);
+      padding-bottom: 30px;
+    }
+
+    .numbers__image {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .numbers__stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      position: relative;
+
+      .numbers__stat {
+        text-align: center;
+
+        .numbers__value {
+          font-family: 'Righteous', cursive;
+          font-size: 56px;
+          padding-top: 50px;
+
+          .numbers__point {
+            color: var(--accent-pure-violet);
+          }
+
+          .numbers__highlight {
+            color: var(--accent-magenta);
+          }
+        }
+
+        .numbers__stat-label {
+          font-size: 14px;
+          padding: 5px 0;
+        }
+
+        .numbers__stat-description {
+          font-size: 16px;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .numbers__header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .numbers__intro {
+        width: 50%;
+      }
+      .numbers__stats {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .numbers__stat {
+          flex: 0 1 calc(50% - 10px);
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .numbers__header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 50px;
+      .numbers__intro {
+        width: 50%;
+      }
+      .numbers__stats {
+        flex: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .numbers__stat {
+          flex: 0 1 calc(50% - 10px);
+        }
+      }
     }
   }
 
   .numbers__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
 
     .numbers__cta {
       background-color: var(--accent-gothic-violet);
-      padding: 39px 45px 39px 45px;
+      padding: 39px 45px;
 
       .numbers__cta-label {
         font-size: 12px;
@@ -80,9 +136,19 @@
 
       .numbers__cta-subtitle {
         font-size: 19px;
-        color: rgba(255, 255, 255, 0.7);
+        color: var(--accent-translucent-white);
         padding-bottom: 20px;
       }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .numbers__content {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .numbers__content {
+      flex-direction: row;
     }
   }
 }

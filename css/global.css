@@ -26,6 +26,7 @@
   --accent-infinity-violet: #3e00fa;
   --accent-blue: #4858f9;
   --accent-pink: #fe226a;
+  --accent-translucent-white: rgba(255, 255, 255, 0.7);
   --button-gradient: linear-gradient(
     -315deg,
     var(--accent-magenta),
