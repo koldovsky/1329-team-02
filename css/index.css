@@ -1,18 +1,26 @@
 @import './global.css';
-@import './controls.css';
 @import './global.header.css';
+@import './controls.css';
 @import './index.cover.css';
 @import './index.popular-songs.css';
+@import './index.genres.css';
 @import './index.numbers.css';
-@import './global.footer.css';
 @import './index.broadcasts.css';
 @import './index.cta-description.css';
 @import './index.artists.css';
+@import './index.news.css';
+@import './global.footer.css';
 @import './podcasts.about.css';
 @import './podcasts.episodes.css';
 @import "./index.subscribe.css";
 @import './about.story.css';
 @import './about.mission.css';
+@import './about.hero.css';
+@import './about.join.css';
 @import './program.css';
+<<<<<<< HEAD
 @import './contacts.location.css';
 
+=======
+@import './contacts.location.css';
+>>>>>>> de58dca5d35d838eb0ed3c767f20f50acc945fe9

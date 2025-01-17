@@ -43,15 +43,19 @@
 
     .header__menu,
     .header__btn {
-      display: flex;
+      display: none;
     }
 
     .header__burger {
-      display: none;
+      display: flex;
     }
   }
 
   @media (min-width: 1200px) {
+    .header__burger {
+      display: none;
+    }
+
     .header__menu,
     .header__btn {
       display: flex;
@@ -70,6 +74,26 @@
         &:hover {
           color: var(--main-color);
         }
+      }
+    }
+
+    .header__btn {
+      padding: 12px 35px;
+      font-size: 0.9rem;
+      font-weight: 600;
+
+      .header__btn-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .header__btn-icon {
+        position: absolute;
+      }
+
+      .header__btn-text {
+        position: relative;
+        padding-left: 32px;
       }
     }
   }
