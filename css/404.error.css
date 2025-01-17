@@ -1,10 +1,12 @@
 .page-404 {
   padding: 40px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   .page-404__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     .page-404__title {
       font-size: 24px;
       margin-bottom: 40px;
