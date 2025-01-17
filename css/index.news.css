@@ -2,14 +2,50 @@
 .news {
     font-family: 'Noto Sans', sans-serif;
     padding: 60px 0px 110px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news__header{    
+    font-size: 12px;
+}
+
+.news__header-details { 
+    display: flex;
+    gap: 20px;    
+}
+
+.news__header-left{
+    flex: 1;
+    font-size: 34px;
+}
+ 
+.news__header-right{
+    flex: 1;
+    font-size: 19px;
+    vertical-align: baseline;
+}
+
+.news__grid {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 40px;    
 }
 
 .news-card {
     padding: 10px 0px;
+    flex: 1 1 30%;  /* calc(33.33% - 40px); */
+    box-sizing: border-box;
 }
 
 .news-card__image {
     width: 100%;
+    height: 250px;
     box-sizing: border-box;
-    margin: auto;
+    margin: auto;    
+    object-fit: cover;
 }
+
+
+
