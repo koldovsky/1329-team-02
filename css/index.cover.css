@@ -113,12 +113,12 @@
 @media (min-width: 768px) {
   .cover {
     overflow-wrap: break-word;
+    align-items: center;
   }
 
   .cover__intro {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex: 1;
   }
   .cover__subtitle,
@@ -128,6 +128,7 @@
   }
   .cover__title {
     margin-block-end: 20px;
+    margin-block-start: 0;
   }
 
   .cover__subtitle,
@@ -142,10 +143,12 @@
 
   .cover__tagline-container {
     text-align: center;
+    align-items: start;
   }
 
   .cover__description {
     margin-bottom: 25px;
+    font-size: 19px;
   }
   .cover__info {
     padding-top: 5px;
@@ -174,7 +177,19 @@
     display: flex;
     flex-direction: row;
   }
+}
+
+@media (min-width: 1280px) {
+  .cover__subtitle,
+  .cover__title {
+    font-size: 68px;
+  }
+
   .cover__description {
-    font-size: 19px;
+    font-size: 21px;
+  }
+
+  .cover__frequency {
+    font-size: 28px;
   }
 }
