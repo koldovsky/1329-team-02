@@ -2,6 +2,21 @@
 }
 
 .feedback__content {
+  display: flex;
+  gap: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__content {
+    padding: 40px 0 105px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__content {
+    padding: 60px 0 120px;
+    gap: 80px;
+  }
 }
 
 .feedback__text {
@@ -12,6 +27,18 @@
 
 .feedback__title {
   font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__title {
+    font-size: 38px;
+  }
 }
 
 .feedback__subtitle {
@@ -42,9 +69,23 @@
   margin-right: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .feedback__wrapper {
+    width: 70px;
+    height: 70px;
+  }
+}
+
 .feedback__icon {
   width: 26px;
   height: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .feedback__location-details {
@@ -82,14 +123,103 @@
   font-style: normal;
 }
 
+.feedback__listen {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__listen {
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__listen {
+    margin: auto 0 0;
+  }
+}
+
 .feedback__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--light-shade-color);
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__form {
+    width: 246px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__form {
+    width: 440px;
+  }
 }
 
 .feedback__input {
+  padding-left: 20px;
+  width: 265px;
+  height: 37px;
+  background-color: var(--bg-forma-input);
+  border-radius: 25px;
+  border: none;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__input {
+    width: 178px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__input {
+    width: 360px;
+  }
 }
 
 .feedback__textarea {
+  padding: 10px 0 0 20px;
+  width: 265px;
+  height: 150px;
+  background-color: var(--bg-forma-input);
+  border-radius: 25px;
+  border: none;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__textarea {
+    width: 178px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__textarea {
+    width: 360px;
+  }
 }
 
 .feedback__button {
+  width: 265px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__button {
+    width: 178px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__button {
+    width: 360px;
+  }
 }
