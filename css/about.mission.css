@@ -1,0 +1,72 @@
+.mission__container {
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.mission__title {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-light-grey);
+  font-size: 18px;
+  font-variant-caps: all-petite-caps;
+}
+
+.mission__title-icon {
+  color: var(--accent-orange);
+  font-size: 50px;
+}
+
+.mission__number {
+  margin-right: 20px;
+}
+
+.mission__list {
+  margin-top: 40px;
+  max-width: 650px;
+}
+
+.mission__subtitle {
+  margin-top: 25px;
+  
+}
+
+.mission__description {
+  color: var(--text-color);
+  margin-top: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 765px) {
+  .mission__container {
+    padding: 0 40px;
+  }
+
+  .mission__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mission__list {
+    margin-top: 0;
+  }
+}
+
+.story__divider {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background-color: transparent;
+  margin: 80px 0;
+}
+
+.story__divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--line-color-footer);
+}
