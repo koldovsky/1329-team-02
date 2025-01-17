@@ -3,12 +3,14 @@
 
 .feedback__content {
   display: flex;
+  flex-direction: column;
   gap: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .feedback__content {
     padding: 40px 0 105px;
+    flex-direction: row;
   }
 }
 
