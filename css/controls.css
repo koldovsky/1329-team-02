@@ -9,6 +9,7 @@
     var(--accent-infinity-violet)
   );
   color: var(--main-color);
+  transition: background-image 0.3s ease, color 0.3s ease;
 
   &:hover {
     background-image: linear-gradient(
