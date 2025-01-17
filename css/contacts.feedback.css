@@ -51,70 +51,6 @@
     }
   }
 
-  .feedback__location {
-    display: flex;
-    margin-bottom: 30px;
-
-    .feedback__wrapper {
-      background-color: var(--light-shade-color);
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 20px;
-
-      .feedback__icon {
-        width: 26px;
-        height: 26px;
-      }
-
-      @media screen and (min-width: 768px) {
-        .feedback__icon {
-          width: 40px;
-          height: 40px;
-        }
-      }
-
-      .feedback__location-title {
-        text-transform: uppercase;
-        font-size: 12px;
-        color: var(--accent-orange);
-        font-style: normal;
-      }
-
-      .feedback__location-info {
-        color: var(--text-color);
-        font-style: normal;
-      }
-    }
-
-    @media screen and (min-width: 768px) {
-      .feedback__wrapper {
-        width: 70px;
-        height: 70px;
-      }
-    }
-  }
-
-  .feedback__contact {
-    display: flex;
-
-    .feedback__contact-title {
-      text-transform: uppercase;
-      font-size: 12px;
-      color: var(--accent-orange);
-      font-style: normal;
-    }
-
-    .feedback__contact-link {
-      display: block;
-      color: var(--text-color);
-      font-style: normal;
-    }
-  }
-
   .feedback__form {
     display: flex;
     flex-direction: column;
@@ -212,4 +148,68 @@
     padding: 60px 0 120px;
     gap: 80px;
   }
+}
+
+.feedback__location {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.feedback__wrapper {
+  background-color: var(--light-shade-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__wrapper {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.feedback__icon {
+  width: 26px;
+  height: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.feedback__location-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent-orange);
+  font-style: normal;
+}
+
+.feedback__location-info {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+.feedback__contact {
+  display: flex;
+}
+
+.feedback__contact-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent-orange);
+  font-style: normal;
+}
+
+.feedback__contact-link {
+  display: block;
+  color: var(--text-color);
+  font-style: normal;
 }
