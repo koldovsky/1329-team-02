@@ -4,18 +4,20 @@
   justify-content: center;
   align-items: center;
 
-  .page-404__title {
-    font-size: 24px;
-    margin-bottom: 40px;
-  }
+  .page-404__container {
+    .page-404__title {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
 
-  .page-404__image {
-    width: 335px;
-    margin-bottom: 40px;
-  }
+    .page-404__image {
+      width: 335px;
+      margin-bottom: 40px;
+    }
 
-  .page-404__text {
-    color: var(--text-color);
-    margin-bottom: 40px;
+    .page-404__text {
+      color: var(--text-color);
+      margin-bottom: 40px;
+    }
   }
 }
