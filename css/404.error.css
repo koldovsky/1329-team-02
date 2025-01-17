@@ -31,10 +31,38 @@
       margin-bottom: 40px;
     }
 
+    @media screen and (min-width: 768px) {
+      .page-404__image {
+        width: 420px;
+        margin-bottom: 60px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .page-404__image {
+        width: 560px;
+        margin-bottom: 80px;
+      }
+    }
+
     .page-404__text {
       color: var(--text-color);
       margin-bottom: 40px;
       text-align: center;
+    }
+
+    @media screen and (min-width: 768px) {
+      .page-404__text {
+        font-size: 24px;
+        margin-bottom: 60px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .page-404__text {
+        font-size: 32px;
+        margin-bottom: 80px;
+      }
     }
   }
 }
