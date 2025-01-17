@@ -1,0 +1,15 @@
+/* Vladimir Kravets */
+.news {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 60px 0px 110px;
+}
+
+.news-card {
+    padding: 10px 0px;
+}
+
+.news-card__image {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
