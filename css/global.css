@@ -30,6 +30,7 @@
   --accent-blue: #4858f9;
   --accent-pink: #fe226a;
   --accent-translucent-white: rgba(255, 255, 255, 0.7);
+  --accent-translucent-black: rgba(0, 0, 0, 0.56);
   --button-gradient: linear-gradient(
     -315deg,
     var(--accent-magenta),

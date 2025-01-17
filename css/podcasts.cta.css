@@ -1,0 +1,50 @@
+.cta {
+  background: url(../images/podcasts/peroson-drum.png);
+  background-size: cover;
+  background-position: 50% 70.35%;
+  width: 100%;
+
+  .cta__background {
+    background: var(--accent-translucent-black);
+    .cta__inner {
+      padding-top: 120px;
+      padding-bottom: 120px;
+      text-align: center;
+
+      .cta__label {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--accent-orange);
+        padding-bottom: 15px;
+      }
+      .cta__title {
+        font-size: 56px;
+        font-family: 'Righteous', cursive;
+        color: var(--main-color);
+        padding-bottom: 40px;
+      }
+      .cta__destitle {
+        font-size: 19px;
+        color: var(--accent-translucent-white);
+        padding-bottom: 40px;
+      }
+
+      .cta__download-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 40px;
+
+        .cta__image-button {
+          border-radius: 5px;
+          border: 1px solid #a6a6a6;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        font-size: 68px;
+      }
+    }
+  }
+}

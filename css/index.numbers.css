@@ -83,6 +83,7 @@
         .numbers__stat {
           flex: 0 1 calc(50% - 10px);
           margin-bottom: 20px;
+          padding: 24px;
         }
       }
     }
@@ -104,6 +105,7 @@
 
         .numbers__stat {
           flex: 0 1 calc(50% - 10px);
+          padding: 24px;
         }
       }
     }
