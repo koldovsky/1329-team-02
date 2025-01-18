@@ -1,7 +1,9 @@
-# HTML Template Repository with HTML Proofer
+<!-- # HTML Template Repository with HTML Proofer
 
-This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
-And htmx to load partials
+This template repository includes preconfigured GitHub Action that will validate
+html files in a project with
+(HTMLProofer)[https://github.com/gjtorikian/html-proofer/]. And htmx to load
+partials
 
 ```html
 <main
@@ -13,25 +15,55 @@ And htmx to load partials
 
 ```js
 function init() {
-  import('...js')
+  import('...js');
 }
 
 const totalPartials = document.querySelectorAll(
   '[hx-trigger="load"], [data-hx-trigger="load"]'
-).length
-let loadedPartialsCount = 0
+).length;
+let loadedPartialsCount = 0;
 
 document.body.addEventListener('htmx:afterOnLoad', () => {
-  loadedPartialsCount++
-  if (loadedPartialsCount === totalPartials) init()
-})
+  loadedPartialsCount++;
+  if (loadedPartialsCount === totalPartials) init();
+});
 ```
 
 Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 
 ```html
 <a href="https://notareallink" data-proofer-ignore>Not checked.</a>
-```
+``` -->
+
+<br />
+<div align="center">
+  <a href="https://koldovsky.github.io/1329-team-02/">
+    <img src="images/global/readme-logo.svg" alt="Logo" width="160">
+  </a>
+
+  <h3 align="center">EchoWave - Team Project</h3>
+
+</div>
+
+## 📌 Project Overview
+
+The EchoWave website demonstrates our team's ability to design and develop a
+static, visually appealing, and responsive web interface.<br>This project was
+built collaboratively by our team using only <strong>HTML</strong>,
+<strong>CSS</strong>, and <strong>JavaScript</strong>.
+
+## 🔗 Project Link
+
+Check out the live version of the project here: 
+<a href="https://koldovsky.github.io/1329-team-02/" target="_blank"> 🖇️ EchoWave
+Website</a>
+
+
+### Tech Stack
+
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 
 # Development team :
 
@@ -60,9 +92,9 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)
   Anhelina Lytovchenko **Front End Developer**
-  
-  - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
-  (https://github.com/izkod)
+
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rlnolino)
+  Roman Lytvynenko **Front End Developer**
+
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izkod)
   Izabella Kodzhebash **Front End Developer**
-  
-Roman Lytvynenko
