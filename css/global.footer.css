@@ -145,8 +145,8 @@
     margin-bottom: 80px;
   }
 
-  .footer__social-item:hover {
-    background-color: var(--accent-vivid-violet);
+  .footer__social-icon:hover {
+    background-color: var(--accent-paler-violet);
   }
 
   .footer__links {
