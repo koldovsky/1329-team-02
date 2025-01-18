@@ -51,6 +51,18 @@
   color: var(--text-color);
 }
 
+@media screen and (min-width: 768px) {
+  .team__description {
+    width: 324px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__description {
+    width: 568px;
+  }
+}
+
 .team__slider {
   margin: 30px 0;
   position: relative;
@@ -187,18 +199,21 @@
 
 @media screen and (min-width: 1280px) {
   .team__image {
-    width: 223px;
-    height: 223px;
+    width: 233px;
+    height: 253px;
   }
 }
 
 .team__name {
   font-size: 22px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .team__socials {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   margin-top: 20px;
 }
