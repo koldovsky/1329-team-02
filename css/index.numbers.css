@@ -15,7 +15,7 @@
 
     .numbers__title {
       font-size: 30px;
-      font-family: 'Righteous', cursive;
+      font-family: var(--font-secondary);
       color: var(--main-color);
       padding-bottom: 30px;
     }
@@ -41,7 +41,7 @@
         text-align: center;
 
         .numbers__value {
-          font-family: 'Righteous', cursive;
+          font-family: var(--font-secondary);
           font-size: 56px;
           padding-top: 50px;
 

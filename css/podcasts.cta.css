@@ -20,7 +20,7 @@
       }
       .cta__title {
         font-size: 56px;
-        font-family: 'Righteous', cursive;
+        font-family: var(--font-secondary);
         color: var(--main-color);
         padding-bottom: 40px;
       }
