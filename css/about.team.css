@@ -172,10 +172,24 @@
   background-color: var(--light-shade-color);
 }
 
+@media screen and (min-width: 1280px) {
+  .team__card {
+    width: 263px;
+    height: 370px;
+  }
+}
+
 .team__image {
   width: 305px;
   height: 305px;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .team__image {
+    width: 223px;
+    height: 223px;
+  }
 }
 
 .team__name {
