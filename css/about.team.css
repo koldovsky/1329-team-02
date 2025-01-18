@@ -1,10 +1,32 @@
 .team {
+  padding: 120px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding: 105px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team {
+    padding: 120px 0;
+  }
 }
 
 .team__container {
 }
 
 .team__header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .team__header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .team__wrapper {
@@ -190,6 +212,7 @@
 .team__pic {
   width: 50px;
   height: 50px;
+  margin-top: 40px;
 }
 
 .team__slogan {
