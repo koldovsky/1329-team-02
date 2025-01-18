@@ -1,5 +1,6 @@
 .page-404 {
   padding: 40px 0;
+  margin-bottom: auto;
 
   .page-404__container {
     display: flex;
