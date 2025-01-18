@@ -1,9 +1,9 @@
 .broadcasts {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: var(--font-primary);
   padding: 60px 0px 110px;
 }
 
-.container {
+.broadcasts__container {
   width: 100%;
   max-width: 1200px;
   padding: 0 24px;
@@ -38,7 +38,7 @@
 }
 
 .broadcasts__icon {
-  font-family: 'Righteous', cursive;
+  font-family: var(--font-secondary);
   font-size: 30px;
   color: var(--accent-pure-violet);
   margin-bottom: 0px;
@@ -166,7 +166,7 @@
     font-size: 23px;
   }
 
-  .container {
+  .broadcasts__container {
     padding: 0 32px;
   }
 
@@ -200,7 +200,7 @@
 }
 
 @media screen and (min-width: 980px) {
-  .container {
+  .broadcasts__container {
     padding: 0 40px;
   }
 
@@ -223,7 +223,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .broadcasts__container {
     padding: 0 15px;
   }
 
