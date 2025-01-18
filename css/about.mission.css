@@ -1,5 +1,5 @@
 .mission__container {
-  padding: 0 20px;
+  padding: 0 40px;
   margin-top: 20px;
   margin-bottom: 100px;
 }
@@ -40,7 +40,7 @@
   text-align: justify;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 1280px) {
   .mission__container {
     padding: 0 40px;
   }

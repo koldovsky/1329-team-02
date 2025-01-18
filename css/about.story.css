@@ -54,7 +54,7 @@
   background: var(--button-hover-gradient);
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 1280px) {
   .story__container {
     padding: 0 40px;
   }

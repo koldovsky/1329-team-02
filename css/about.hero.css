@@ -33,13 +33,11 @@
   max-width: 540px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1280px) {
   .hero__title {
     font-size: 68px;
   }
-}
 
-@media screen and (min-width: 764px) {
   .hero__content {
     display: flex;
     justify-content: space-between;
