@@ -54,13 +54,10 @@ built collaboratively by our team using only <strong>HTML</strong>,
 
 ## 🔗 Project Link
 
-Check out the live version of the project here: <<<<<<< HEAD
-<a href="https://koldovsky.github.io/1329-team-02/" target="_blank"> 🖇️ EchoWave
-Website</a> =======
+Check out the live version of the project here: 
 <a href="https://koldovsky.github.io/1329-team-02/" target="_blank"> 🖇️ EchoWave
 Website</a>
 
-> > > > > > > 3c828295f3c9d95ac8fdec235ecefd241b2f47d7
 
 ### Tech Stack
 
