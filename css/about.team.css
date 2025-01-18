@@ -248,6 +248,7 @@
   font-size: 30px;
   font-weight: bold;
   font-family: var(--font-secondary);
+  text-align: center;
 }
 
 .team__quote {
@@ -258,4 +259,5 @@
 .team__fm {
   color: var(--accent-orange);
   font-weight: bold;
+  margin-left: 5px;
 }
