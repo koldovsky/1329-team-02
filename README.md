@@ -38,7 +38,7 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 <br />
 <div align="center">
   <a href="https://koldovsky.github.io/1329-team-02/">
-    <img src="../1329-team-02/images/global/echowave-logo.svg" alt="Logo" width="120">
+    <img src="images/global/echowave-logo.svg" alt="Logo" width="160">
   </a>
 
   <h3 align="center">EchoWave - Team Project</h3>
@@ -55,7 +55,7 @@ built collaboratively by our team using only <strong>HTML</strong>,
 ## 🔗 Project Link
 
 Check out the live version of the project here:
-<a href="https://example.com" target="_blank"> 🖇️ EchoWave Website</a>
+<a href="https://koldovsky.github.io/1329-team-02/" target="_blank"> 🖇️ EchoWave Website</a>
 
 ### Tech Stack
 
