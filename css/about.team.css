@@ -120,21 +120,40 @@
 }
 
 .team__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
 }
 
 .team__item {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .team__item {
+    width: calc(50% - 15px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__item {
+    width: calc(25% - 22.5px);
+  }
 }
 
 .team__card {
   padding: 15px;
-  width: 267px;
-  height: 370px;
+  width: 335px;
+  height: 420px;
   background-color: var(--light-shade-color);
 }
 
 .team__image {
-  width: 267px;
-  height: 255px;
+  width: 305px;
+  height: 305px;
   object-fit: cover;
 }
 
