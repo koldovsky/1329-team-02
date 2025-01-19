@@ -32,7 +32,7 @@
 
 .daily-program__table th,
 .daily-program__table td {
-  padding: 1.5rem 1rem; /* Однакові відступи */
+  padding: 1.5rem 1rem; 
   color: #f2f2f2;
   text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -41,21 +41,21 @@
 .daily-program__table th {
   text-transform: uppercase;
   font-size: 1rem;
-  color: #f2994a; /* Оранжевий колір для часу */
+  color: #f2994a; 
   font-weight: bold;
 }
 
 .daily-program__table th:first-child {
-  color: #aaa; /* Сірий колір для "Day/Time" */
+  color: #aaa; 
 }
 
 .daily-program__table td:first-child {
   font-weight: bold;
-  color: #fff; /* Білий колір для днів */
+  color: #fff;
 }
 
 .daily-program__table th:nth-child(n + 2) {
-  color: #f2994a; /* Оранжевий колір для часу */
+  color: #f2994a;
   font-weight: bold;
 }
 
