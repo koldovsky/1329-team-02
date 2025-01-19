@@ -1,64 +1,202 @@
-.daily-program {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: 'Noto Sans', serif;
+}
+
+.daily-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 120px;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.daily-program__title {
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #f2f2f2;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.daily-program__description {
-  font-size: 1.2rem;
-  color: #aaa;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.daily-program__table {
+  justify-content: center;
+  height: 100%;
   width: 100%;
-  border-spacing: 0;
-  margin-top: 1rem;
+  padding: 0 50px;
 }
 
-.daily-program__table th,
-.daily-program__table td {
-  padding: 1.5rem 1rem; 
-  color: #f2f2f2;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+.daily-header {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
 }
 
-.daily-program__table th {
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: #f2994a; 
+.title {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.star {
   font-weight: bold;
+  font-size: 42px;
+  color: rgb(72, 88, 249);
 }
 
-.daily-program__table th:first-child {
-  color: #aaa; 
-}
-
-.daily-program__table td:first-child {
+.daily-program {
+  font-size: 12px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(219, 219, 219);
 }
 
-.daily-program__table th:nth-child(n + 2) {
-  color: #f2994a;
-  font-weight: bold;
+.daily-text {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: start;
+  width: 400px;
 }
 
-.daily-program__table tr:last-child td {
+.daily-table {
+  display: flex;
+  width: 70%;
+  padding: 25px 35px;
+  text-align: start;
+  margin-top: 50px;
+}
+
+.daily-table table {
+  width: 100%;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.daily-table table th,
+td {
+  padding: 25px 20px;
+  text-align: start;
+}
+
+.daily-table table tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+}
+
+.daily-table table tr:last-child {
   border-bottom: none;
+}
+
+.time {
+  color: rgb(255, 116, 51);
+}
+
+.day {
+  color: white;
+  font-weight: bold;
+  width: 21%;
+}
+
+.normal-weight {
+  font-weight: normal;
+  color: rgb(219, 219, 219);
+}
+
+tbody {
+  color: rgb(219, 219, 219);
+}
+
+.mobile-schedule {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    display: none;
+  }
+
+  .mobile-schedule {
+    display: block;
+  }
+
+  .daily-container {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+  }
+
+  .star {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size: 12px;
+    gap: 0;
+    padding: 0 15px;
+  }
+
+  .daily-text {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .daily-header {
+    margin-top: 30px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+    align-items: flex-start;
+  }
+
+  .daily-table {
+    margin-top: 45px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .mobile-schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 25px 20px;
+  }
+
+  .mobile-header {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+    justify-content: space-around;
+  }
+
+  .mobile-line-header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px 20px;
+  }
+
+  .day-schedule {
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .time-slot {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .time {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff6f00;
+  }
+
+  .program {
+    font-size: 16px;
+    width: 100%;
+    text-align: start;
+  }
 }
