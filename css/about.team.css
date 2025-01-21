@@ -224,9 +224,6 @@
   margin-top: 20px;
 }
 
-.team__social-item {
-}
-
 .team__social-icon {
   fill: var(--main-color);
   transition: fill 0.3s ease;
