@@ -1,0 +1,45 @@
+.intro {
+  margin-bottom: 30px;
+}
+
+.intro__content {
+  margin: 70px 0 85px 0;
+}
+
+.intro__title {
+  font-family: var(--font-secondary);
+  font-size: 56px;
+  font-weight: inherit;
+  width: 300px;
+}
+
+.intro__link {
+  color: var(--text-light-grey);
+  font-size: 18px;
+  font-weight: 600;
+  font-variant-caps: all-petite-caps;
+  margin-top: 25px;
+}
+
+.intro__route {
+  color: var(--accent-orange);
+  text-decoration: underline;
+}
+
+.intro__description {
+  color: var(--text-color);
+  font-size: 19px;
+  margin-top: 50px;
+  max-width: 540px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    font-size: 68px;
+  }
+
+  .intro__content {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -6,7 +6,7 @@
 .episodes__card {
   display: flex;
   flex-direction: column;
-  margin: 0 35px;
+  margin: 0 40px 0 30px;
   background-color: var(--bg-color-podcasts-cards);
   margin-bottom: 30px;
 }
