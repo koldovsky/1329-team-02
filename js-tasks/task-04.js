@@ -17,3 +17,12 @@ function greet(name, owner) {
 function greet(name, owner) {
   return `Hello ${name === owner ? 'boss' : 'guest'}`;
 }
+
+//Dmytro Prokopenko
+function greet(name, owner) {
+  if (name == owner) {
+    return 'Hello boss';
+  } else {
+    return 'Hello guest';
+  }
+}

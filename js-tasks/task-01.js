@@ -19,3 +19,9 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   const sumGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
   return sumGoals;
 }
+
+
+//Dmytro Prokopenko
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}

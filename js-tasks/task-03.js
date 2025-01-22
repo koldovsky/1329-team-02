@@ -19,3 +19,10 @@ function move(position, roll) {
   const finishPosition = position + roll * twoTimes;
   return finishPosition;
 }
+
+//Dmytro Prokopenko
+function move (position, roll) {
+  const newPosition = position + roll * 2;
+  return newPosition;
+}
+

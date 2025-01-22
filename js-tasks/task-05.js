@@ -16,3 +16,9 @@ function litres(time) {
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+//Dmytro Prokopenko
+function litres(time) {
+  let result = time * 0.5;
+  return Math.floor(result);
+}
