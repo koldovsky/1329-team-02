@@ -1,0 +1,7 @@
+.about-station__img {
+  background-image: url(../images/index/about-station/cta.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
