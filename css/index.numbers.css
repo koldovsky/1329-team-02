@@ -76,12 +76,10 @@
       gap: 30px;
 
       .numbers__intro {
-        width: 50%;
+        width: 60%;
       }
       .numbers__stats {
-        flex-direction: column;
-        width: 50%;
-        gap: 50px;
+        flex: 1, 1, 50%;
 
         .numbers__stat {
           padding: 0px 30px;
@@ -95,7 +93,8 @@
   }
 
   .numbers__content {
-    padding: 30px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     .numbers__cta {
       background-color: var(--accent-gothic-violet);
@@ -135,14 +134,14 @@
       justify-content: center;
       width: 100%;
       .numbers__cta {
-        width: 50%;
+        width: 60%;
 
         .numbers__cta-title {
           font-size: 28px;
         }
       }
       .numbers__image-wrapper {
-        height: 400px;
+        height: auto;
       }
     }
   }
