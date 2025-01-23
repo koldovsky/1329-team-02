@@ -1,7 +1,107 @@
+.about-station__cta {
+  padding: 100px 0;
+}
+
 .about-station__img {
   background-image: url(../images/index/about-station/cta.png);
   background-repeat: no-repeat;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  background-size: cover;
+  border-radius: inherit;
+  width: 650px;
+  padding: 50px 40px;
+}
+
+.about-station__img-title {
+  font-size: 14px;
+  color: var(--accent-orange);
+  max-width: 570px;
+  margin-bottom: 15px;
+}
+
+.about-station__discover {
+  max-width: 570px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.about-station__fm-wave {
+  max-width: 570px;
+  font-size: 19px;
+  color: var(--input-text-color);
+  margin-bottom: 15px;
+}
+
+.about-station__cta-img {
+  max-width: 240px;
+}
+
+.about-station__text {
+  max-width: 470px;
+}
+
+.about-station__title {
+  font-size: 14px;
+  color: var(--text-light-grey);
+  margin-bottom: 20px;
+}
+
+.about-station__last-title {
+  font-size: 38px;
+  font-family: var(--font-secondary);
+  margin-bottom: 20px;
+}
+
+.about-station__paragraph {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.about-station__button {
+  background: var(--button-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 10px;
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.about-station__button:hover {
+  background: var(--button-hover-gradient);
+}
+
+.about-station__cards {
+  display: flex;
+  margin-top: 100px;
+}
+
+.about-station__card-img {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+}
+
+.about-station__card-img-box {
+  border-radius: 50%;
+  padding-top: 20px;
+  background-color: var(--light-shade-color);
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-station__cta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  
 }
