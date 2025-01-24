@@ -82,12 +82,24 @@ var max = function (list) {
 };
 // End Markiian Senkiv
 
+// Yevhen Martynych
+const min = function (list) {
+  return Math.min(...list);
+};
+
+const max = function (list) {
+  return Math.max(...list);
+};
+// End Yevhen Martynych
+
 // Smallest value of an array
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
-function min(arr, toReturn) { 
-  let minNum = arr.reduce((acc, num) => acc > num ? num : acc);
-  return toReturn === "value" ? minNum : arr.indexOf(minNum);
+// Dmytro Prokopenko
+function min(arr, toReturn) {
+  let minNum = arr.reduce((acc, num) => (acc > num ? num : acc));
+  return toReturn === 'value' ? minNum : arr.indexOf(minNum);
 }
+// End Dmytro Prokopenko
 
 // Markiian Senkiv
 function min(arr, toReturn) {
@@ -97,9 +109,16 @@ function min(arr, toReturn) {
       index = i;
     }
   }
-  return toReturn === "value" ? arr[index] : index;
+  return toReturn === 'value' ? arr[index] : index;
 }
 // End Markiian Senkiv
+
+// Yevhen Martynych
+function min(arr, toReturn) {
+  const minNum = Math.min(...arr);
+  return toReturn === 'value' ? minNum : arr.indexOf(minNum);
+}
+// End Yevhen Martynych
 
 ////////////////////
 // Additional tasks
@@ -143,9 +162,12 @@ function getRealFloor(n) {
 
 // Clock
 // https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
+// Dmytro Prokopenko
 function past(h, m, s) {
   return (h * 60 * 60 + m * 60 + s) * 1000;
 }
+// End Dmytro Prokopenko
+
 // Markiian Senkiv
 function past(h, m, s) {
   return ((h * 60 + m) * 60 + s) * 1000;
@@ -154,6 +176,8 @@ function past(h, m, s) {
 
 // Is n divisible by x and y
 // https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+// Dmytro Prokopenko
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
+// End Dmytro Prokopenko
