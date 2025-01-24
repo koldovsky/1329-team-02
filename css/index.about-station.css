@@ -40,13 +40,13 @@
 }
 
 .about-station__title {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-light-grey);
-  margin-bottom: 20px;
+  margin: 40px 0;
 }
 
 .about-station__last-title {
-  font-size: 38px;
+  font-size: 30px;
   font-family: var(--font-secondary);
   margin-bottom: 20px;
 }
@@ -77,7 +77,7 @@
 }
 
 .about-station__cards {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .about-station__card__img {
@@ -130,6 +130,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-station__last-title {
+    font-size: 38px;
+  }
+
   .about-station__cta {
     display: flex;
     justify-content: space-between;
@@ -159,9 +163,12 @@
   .about-station__card__item {
     width: 270px;
   }
-  
-}
 
-@media screen and (min-width: 1280px) {
-  
+  .about-station__card__item__headphones {
+    padding: 0 20px;
+  }
+
+  .about-station__card__item__microphone {
+    padding: 0 20px;
+  }
 }
