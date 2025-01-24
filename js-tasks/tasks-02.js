@@ -60,6 +60,27 @@ function DNAtoRNA(dna) {
 
 // Find Maximum and Minimum Values of a List
 // https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+// Markiian Senkiv
+var min = function (list) {
+  let minimum = list[0];
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] < minimum) {
+      minimum = list[i];
+    }
+  }
+  return minimum;
+};
+
+var max = function (list) {
+  let maximum = list[0];
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] > maximum) {
+      maximum = list[i];
+    }
+  }
+  return maximum;
+};
+// End Markiian Senkiv
 
 // Smallest value of an array
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
