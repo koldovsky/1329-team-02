@@ -63,6 +63,10 @@ function DNAtoRNA(dna) {
 
 // Smallest value of an array
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+function min(arr, toReturn) { 
+  let minNum = arr.reduce((acc, num) => acc > num ? num : acc);
+  return toReturn === "value" ? minNum : arr.indexOf(minNum);
+}
 
 ////////////////////
 // Additional tasks
@@ -106,6 +110,12 @@ function getRealFloor(n) {
 
 // Clock
 // https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
+function past(h, m, s) {
+  return (h * 60 * 60 + m * 60 + s) * 1000;
+}
 
 // Is n divisible by x and y
 // https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0;
+}
