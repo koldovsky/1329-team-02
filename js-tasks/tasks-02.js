@@ -89,6 +89,18 @@ function min(arr, toReturn) {
   return toReturn === "value" ? minNum : arr.indexOf(minNum);
 }
 
+// Markiian Senkiv
+function min(arr, toReturn) {
+  let index = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < arr[index]) {
+      index = i;
+    }
+  }
+  return toReturn === "value" ? arr[index] : index;
+}
+// End Markiian Senkiv
+
 ////////////////////
 // Additional tasks
 ////////////////////
@@ -134,6 +146,11 @@ function getRealFloor(n) {
 function past(h, m, s) {
   return (h * 60 * 60 + m * 60 + s) * 1000;
 }
+// Markiian Senkiv
+function past(h, m, s) {
+  return ((h * 60 + m) * 60 + s) * 1000;
+}
+// End Markiian Senkiv
 
 // Is n divisible by x and y
 // https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
