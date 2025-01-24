@@ -43,6 +43,9 @@ function stringToArray(string) {
 }
 // End Dmytro Prokopenko
 
+//------------------------------------------------ Viktor Svertoka
+const stringToArray = string => string.split(' ');
+
 // DNA to RNA Conversion
 // https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 
@@ -57,6 +60,9 @@ function DNAtoRNA(dna) {
   return dna.replaceAll('T', 'U');
 }
 // End Yevhen Martynych
+
+//------------------------------------------------ Viktor Svertoka
+const DNAtoRNA = dna => dna.replace(/T/g, 'U');
 
 // Find Maximum and Minimum Values of a List
 // https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
@@ -92,6 +98,11 @@ const max = function (list) {
 };
 // End Yevhen Martynych
 
+//------------------------------------------------ Viktor Svertoka
+const min = list => Math.min(...list);
+
+const max = list => Math.max(...list);
+
 // Smallest value of an array
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 // Dmytro Prokopenko
@@ -120,6 +131,9 @@ function min(arr, toReturn) {
 }
 // End Yevhen Martynych
 
+//------------------------------------------------ Viktor Svertoka
+const min = (arr, toReturn) =>
+  toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
 ////////////////////
 // Additional tasks
 ////////////////////
