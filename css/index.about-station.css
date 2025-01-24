@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: inherit;
-  width: 650px;
   padding: 50px 40px;
 }
 
@@ -37,6 +36,7 @@
 
 .about-station__text {
   max-width: 470px;
+  padding-left: 10px;
 }
 
 .about-station__title {
@@ -77,22 +77,56 @@
 }
 
 .about-station__cards {
-  display: flex;
   margin-top: 100px;
 }
 
-.about-station__card-img {
+.about-station__card__img {
   margin: auto;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
 }
 
-.about-station__card-img-box {
+.about-station__card__img-box {
   border-radius: 50%;
   padding-top: 20px;
   background-color: var(--light-shade-color);
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.about-station__card__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-station__card__line {
+  width: 40px;
+  height: 4px;
+  margin-bottom: 20px;
+}
+
+.about-station__card__line__radio {
+  background-color: var(--accent-magenta);
+}
+
+.about-station__card__line__headphones {
+  
+  background-color: var(--accent-orange);
+}
+
+.about-station__card__line__microphone {
+  background-color: var(--accent-pure-violet);
+}
+
+.about-station__card__line__turntable {
+  background-color: var(--accent-blue);
+}
+
+.about-station__card__text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: var(--text-light-grey);
 }
 
 @media screen and (min-width: 768px) {
@@ -100,6 +134,32 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .about-station__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-station__img {
+    width: 660px;
+    padding: 50px 40px;
+  }
+  .about-station__card__img-box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .about-station__card__img {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-station__card__item {
+    width: 270px;
+  }
+  
 }
 
 @media screen and (min-width: 1280px) {
