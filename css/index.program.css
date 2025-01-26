@@ -186,3 +186,13 @@ tbody {
     text-align: start;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .daily-table {
+    width: 1170px;
+  }
+
+  .daily-header {
+    width: 100%;
+  }
+}
