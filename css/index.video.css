@@ -1,5 +1,10 @@
 .video {
-  background: url(../images/index/video/bg-video.png);
+  background: linear-gradient(
+      var(--accent-translucent-black),
+      var(--accent-translucent-black)
+    ),
+    url(../images/index/video/bg-video.png);
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,10 +48,21 @@
 }
 
 .video__title {
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .video__slogan {
+  font-size: 19px;
+  color: var(--text-color);
+  margin-top: 20px;
 }
 
 .video__link {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--accent-orange);
+  margin-top: 20px;
 }
