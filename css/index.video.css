@@ -1,0 +1,60 @@
+.video {
+  background: url(../images/index/video/bg-video.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 120px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    padding: 130px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video {
+    padding: 160px 0;
+  }
+}
+
+.video__btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    -315deg,
+    var(--accent-magenta),
+    var(--accent-infinity-violet)
+  );
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-image: linear-gradient(
+      -315deg,
+      var(--accent-infinity-violet),
+      var(--accent-magenta)
+    );
+  }
+}
+
+.video__icon {
+  fill: var(--main-color);
+  width: 16px;
+  height: 16px;
+}
+
+.video__title {
+}
+
+.video__slogan {
+}
+
+.video__link {
+}
