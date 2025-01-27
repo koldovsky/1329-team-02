@@ -1,208 +1,202 @@
 .popular-songs {
   padding: 60px 0;
+}
 
+.popular-songs__header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--line-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
   .popular-songs__header {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 60px;
-    position: relative;
-
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 1px;
-      background-color: var(--line-color);
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .popular-songs__header {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+@media screen and (min-width: 1280px) {
+  .popular-songs__header {
+    justify-content: space-between;
+    align-items: center;
   }
+}
 
-  @media screen and (min-width: 1280px) {
-    .popular-songs__header {
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
+.popular-songs__title-icon {
+  font-size: 30px;
+  font-family: var(--font-secondary);
+  color: var(--accent-magenta);
+}
 
+@media screen and (min-width: 768px) {
   .popular-songs__title-icon {
-    font-size: 30px;
-    font-family: var(--font-secondary);
-    color: var(--accent-magenta);
+    font-size: 34px;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .popular-songs__title-icon {
-      font-size: 34px;
-    }
+@media screen and (min-width: 1280px) {
+  .popular-songs__title-icon {
+    font-size: 38px;
   }
+}
 
-  @media screen and (min-width: 1280px) {
-    .popular-songs__title-icon {
-      font-size: 38px;
-    }
+.popular-songs__title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.popular-songs__description {
+  font-size: 18px;
+  width: 327px;
+  margin-top: 50px;
+
+  .popular-songs__highlight {
+    font-weight: bold;
+    text-decoration: underline;
   }
+}
 
-  .popular-songs__title {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: var(--text-color);
-  }
-
+@media screen and (min-width: 768px) {
   .popular-songs__description {
-    font-size: 18px;
-    width: 327px;
-    margin-top: 50px;
-
-    .popular-songs__highlight {
-      font-weight: bold;
-      text-decoration: underline;
-    }
+    font-size: 19px;
+    width: 270px;
+    margin: 0;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .popular-songs__description {
-      font-size: 19px;
-      width: 270px;
-      margin: 0;
-    }
+@media screen and (min-width: 1280px) {
+  .popular-songs__description {
+    font-size: 21px;
+    width: 450px;
+    margin: 0;
   }
+}
 
-  @media screen and (min-width: 1280px) {
-    .popular-songs__description {
-      font-size: 21px;
-      width: 450px;
-      margin: 0;
-    }
+.popular-songs__wrapp {
+  position: relative;
+}
+
+.popular-songs__slider {
+  overflow: hidden;
+
+  padding-top: 60px;
+}
+
+.popular-songs__list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.popular-songs__item {
+  flex-shrink: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.popular-songs__image {
+  width: 297px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-songs__image {
+    width: 322px;
   }
+}
 
-  .popular-songs__slider {
-    padding-top: 60px;
-    position: relative;
-
-    .popular-songs__button {
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 60%;
-      transform: translateY(-50%);
-      background-color: var(--bg-slider-btn);
-      border: none;
-      border-radius: 50%;
-
-      .popular-songs__icon {
-        fill: var(--text-color);
-        transition: fill 0.3s ease;
-        width: 15px;
-        height: 15px;
-      }
-
-      &:hover {
-        fill: var(--main-color);
-      }
-
-      @media screen and (min-width: 768px) {
-        .popular-songs__icon {
-          width: 30px;
-          height: 30px;
-        }
-      }
-    }
-
-    @media screen and (min-width: 768px) {
-      .popular-songs__button {
-        background-color: transparent;
-        border: none;
-      }
-    }
-
-    .popular-songs__button--prev {
-      left: -4%;
-    }
-
-    .popular-songs__button--next {
-      right: -4%;
-    }
+@media screen and (min-width: 1280px) {
+  .popular-songs__image {
+    width: 263px;
   }
+}
 
-  .popular-songs__list {
-    display: flex;
-    gap: 30px;
-    transition: transform 0.3s ease;
-    overflow: hidden;
+.popular-songs__genre {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--accent-orange);
+  margin-top: 10px;
+}
 
-    .popular-songs__item {
-      flex: 0 0 auto;
-      width: 100%;
-    }
+.popular-songs__name {
+  font-size: 22px;
+  margin-top: 10px;
+}
 
-    @media screen and (min-width: 768px) {
-      .popular-songs__item {
-        width: calc(50% - 15px);
-      }
-    }
+@media screen and (min-width: 768px) {
+  .popular-songs__name {
+    font-size: 23px;
+  }
+}
 
-    @media screen and (min-width: 1280px) {
-      .popular-songs__item {
-        width: calc(25% - 22.5px);
-      }
-    }
+@media screen and (min-width: 1280px) {
+  .popular-songs__name {
+    font-size: 24px;
+  }
+}
 
-    .popular-songs__image {
-      width: 297px;
-    }
+.popular-songs__artist {
+  color: var(--text-color);
+  margin-top: 10px;
+}
 
-    @media screen and (min-width: 768px) {
-      .popular-songs__image {
-        width: 322px;
-      }
-    }
+.popular-songs__button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: var(--bg-slider-btn);
+  border: none;
+  border-radius: 50%;
+}
 
-    @media screen and (min-width: 1280px) {
-      .popular-songs__image {
-        width: 263px;
-      }
-    }
+@media screen and (min-width: 768px) {
+  .popular-songs__button {
+    background-color: transparent;
+    border: none;
+  }
+}
 
-    .popular-songs__genre {
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: var(--accent-orange);
-      margin-top: 10px;
-    }
+.popular-songs__button.prev {
+  left: -4%;
+  z-index: 1;
+}
 
-    .popular-songs__name {
-      font-size: 22px;
-      margin-top: 10px;
-    }
+.popular-songs__button.next {
+  right: -4%;
+  z-index: 1;
+}
 
-    @media screen and (min-width: 768px) {
-      .popular-songs__name {
-        font-size: 23px;
-      }
-    }
+.popular-songs__icon {
+  fill: var(--text-color);
+  transition: fill 0.3s ease;
+  width: 15px;
+  height: 15px;
 
-    @media screen and (min-width: 1280px) {
-      .popular-songs__name {
-        font-size: 24px;
-      }
-    }
+  &:hover {
+    fill: var(--main-color);
+  }
+}
 
-    .popular-songs__artist {
-      color: var(--text-color);
-      margin-top: 10px;
-    }
+@media screen and (min-width: 768px) {
+  .popular-songs__icon {
+    width: 30px;
+    height: 30px;
   }
 }
