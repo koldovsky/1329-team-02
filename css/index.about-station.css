@@ -78,6 +78,7 @@
 
 .about-station__cards {
   margin-top: 70px;
+  gap: 10px;
 }
 
 .about-station__card__img {
@@ -111,7 +112,6 @@
 }
 
 .about-station__card__line__headphones {
-  
   background-color: var(--accent-orange);
 }
 
@@ -124,7 +124,6 @@
 }
 
 .about-station__card__text {
-  font-size: 16px;
   margin-bottom: 30px;
   color: var(--text-light-grey);
 }
@@ -161,14 +160,7 @@
   }
 
   .about-station__card__item {
-    width: 270px;
-  }
-
-  .about-station__card__item__headphones {
-    padding: 0 20px;
-  }
-
-  .about-station__card__item__microphone {
-    padding: 0 20px;
+    width: 280px;
+    padding: 0 15px;
   }
 }
