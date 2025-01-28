@@ -1,4 +1,4 @@
-.daily-container {
+.daily__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.daily-header {
+.daily__header {
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -15,116 +15,113 @@
   padding: 0 15px;
 }
 
-.title {
+.daily__title {
   text-align: start;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.star {
+.daily__star {
   font-weight: bold;
   font-size: 42px;
-  color: rgb(72, 88, 249);
+  color: var(--accent-blue);
 }
 
-.daily-program {
+.daily__program {
   font-size: 12px;
   font-weight: bold;
-  color: rgb(219, 219, 219);
+  color: var(--text-color);
 }
 
-.daily-text {
+.daily__description {
   font-size: 21px;
   font-weight: 400;
   text-align: start;
   width: 400px;
 }
 
-.daily-table {
+.daily__table-wrapper {
   display: flex;
   width: 70%;
-  padding: 25px 35px;
   text-align: start;
   margin-top: 50px;
 }
 
-.daily-table table {
+.daily__table {
   width: 100%;
-  font-size: 16px;
   border-collapse: collapse;
 }
 
-.daily-table table th,
-td {
+.daily__table th,
+.daily__table td {
   padding: 25px 20px;
   text-align: start;
 }
 
-.daily-table table tr {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+.daily__table tr {
+  border-bottom: 1px solid var(--line-color);
 }
 
-.daily-table table tr:last-child {
+.daily__table tr:last-child {
   border-bottom: none;
 }
 
-.time {
-  color: rgb(255, 116, 51);
+.daily__table-time {
+  color: var(--accent-orange);
 }
 
-.day {
-  color: white;
+.daily__table-day {
   font-weight: bold;
   width: 21%;
 }
 
-.normal-weight {
+.daily__table-cell {
   font-weight: normal;
-  color: rgb(219, 219, 219);
+  color: var(--text-color);
 }
 
-tbody {
-  color: rgb(219, 219, 219);
+.daily__table-body {
+  color: var(--text-color);
 }
 
-.mobile-schedule {
+.daily__mobile-schedule {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
-  table {
+  .daily__table {
     display: none;
   }
 
-  .mobile-schedule {
+  .daily__mobile-schedule {
     display: block;
   }
 
-  .daily-container {
+  .daily__container {
     width: 100vw;
     height: auto;
     padding: 0;
   }
 
-  .star {
+  .daily__star {
     font-size: 30px;
   }
 
-  .title {
+  .daily__title {
     font-size: 12px;
     gap: 0;
     padding: 0 15px;
   }
 
-  .daily-text {
+  .daily__description {
     width: 100%;
     margin-top: 50px;
     font-size: 18px;
     padding: 0 15px;
   }
 
-  .daily-header {
+  .daily__header {
     margin-top: 30px;
     flex-direction: column;
     width: 100%;
@@ -132,67 +129,70 @@ tbody {
     align-items: flex-start;
   }
 
-  .daily-table {
+  .daily__table-wrapper {
     margin-top: 45px;
     width: 100%;
     padding: 0;
   }
 
-  .mobile-schedule {
+  .daily__mobile-schedule {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 25px 20px;
   }
 
-  .mobile-header {
+  .daily__mobile-header {
     display: flex;
     width: 100%;
     align-items: flex-start;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+    border-bottom: 1px solid var(--line-color);
     justify-content: space-around;
   }
 
-  .mobile-line-header {
+  .daily__mobile-line-header {
     display: flex;
     align-items: flex-start;
     width: 100%;
     padding: 25px 20px;
   }
 
-  .day-schedule {
-    color: #fff;
+  .daily__day-schedule {
+    color: var(--main-color);
     padding: 16px;
     border-radius: 8px;
   }
 
-  .time-slot {
+  .daily__time-slot {
     display: flex;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.463);
+    border-bottom: 1px solid var(--line-color);
     align-items: flex-start;
     width: 100%;
   }
 
-  .time {
+  .daily__mobile-time {
     width: 100%;
     font-weight: bold;
     font-size: 14px;
-    color: #ff6f00;
+    color: var(--accent-orange);
   }
 
-  .program {
-    font-size: 16px;
+  .daily__program {
     width: 100%;
     text-align: start;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .daily-table {
-    width: 1170px;
+  .daily__table-wrapper {
+    width: 1152px;
   }
 
-  .daily-header {
+  .daily__header {
     width: 100%;
   }
+}
+
+.daily__table-head {
+  border-bottom: 1px solid var(--line-color);
 }
