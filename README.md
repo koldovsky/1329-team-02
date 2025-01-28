@@ -52,37 +52,19 @@ Website</a>
 
 ## Development team :
 
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yevhenmartynych)
-  Yevhen Martynych **Team Lead**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)
-  Viktor Svertoka **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarkiianSenkiv)
-  Markiian Senkiv **Front End Developer**
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)
-  Oleksandr Kopytin **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micromoleckula)
-  Dmytro Prokopenko **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuliiashpylkatestqa)
-  Yuliia Shpylka **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KravetsVA)
-  Vladimir Kravets **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hola2005)
-  Vladyslav Plakhotniuk **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)
-  Anhelina Lytovchenko **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rlnolino)
-  Roman Lytvynenko **Front End Developer**
-
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izkod)
-  Izabella Kodzhebash **Front End Developer**
+| Name                  | Role                    | GitHub                                                                                                                                          |
+| --------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yevhen Martynych      | **Team Lead**           | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yevhenmartynych)     |
+| Viktor Svertoka       | **Deputy Team Lead**    | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)      |
+| Markiian Senkiv       | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarkiianSenkiv)      |
+| Oleksandr Kopytin     | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)            |
+| Dmytro Prokopenko     | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micromoleckula)      |
+| Yuliia Shpylka        | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuliiashpylkatestqa) |
+| Vladimir Kravets      | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KravetsVA)           |
+| Vladyslav Plakhotniuk | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hola2005)            |
+| Anhelina Lytovchenko  | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)        |
+| Roman Lytvynenko      | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rlnolino)            |
+| Izabella Kodzhebash   | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izkod)               |
 
 <!-- # HTML Template Repository with HTML Proofer
 
