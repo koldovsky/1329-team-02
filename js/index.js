@@ -1,5 +1,6 @@
 function init() {
   import('./index.popular-songs.js');
+  import('./index.broadcasts.js');
 }
 
 const totalPartials = document.querySelectorAll(
