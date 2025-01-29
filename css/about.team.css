@@ -85,7 +85,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 60%;
+  top: 20%;
   transform: translateY(-50%);
   background-color: var(--bg-slider-btn);
   border: none;
@@ -173,8 +173,7 @@
 .team__item {
   flex-shrink: 0;
   width: 100%;
-
-  padding: 20px;
+  padding: 10px;
 }
 
 .team__card {
