@@ -85,7 +85,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 20%;
+  top: 30%;
   transform: translateY(-50%);
   background-color: var(--bg-slider-btn);
   border: none;
