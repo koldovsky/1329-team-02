@@ -9,13 +9,16 @@
         </p>
       </div>
       <div class="form__container">
-        <form class="subscribe__form">
+        <form class="subscribe__form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4cb4e10c-2c61-4bbf-bfb5-7dcf7ecbc521">
           <input
             type="email"
+            name="email"
             class="subscribe__input"
             placeholder="Email"
             required
           />
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
           <button type="submit" class="subscribe__button">Subscribe</button>
         </form>
       </div>
