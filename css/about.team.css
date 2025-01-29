@@ -173,7 +173,12 @@
 .team__item {
   flex-shrink: 0;
   width: 100%;
-  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__item {
+    padding: 10px;
+  }
 }
 
 .team__card {
