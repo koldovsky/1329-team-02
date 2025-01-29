@@ -30,9 +30,13 @@
     }
   }
 
-  .artists__slider {
-    padding-top: 60px;
+  .artists__wrapp {
     position: relative;
+  }
+
+  .artists__slider {
+    overflow: hidden;
+    padding-top: 60px;
 
     .artists__button {
       width: 30px;
@@ -87,59 +91,48 @@
       }
     }
 
-    .artists__button--prev {
+    .artists__button.js-prev {
       left: -4%;
+      z-index: 1;
     }
 
     @media screen and (min-width: 768px) {
-      .artists__button--prev {
+      .artists__button.js-prev {
         left: -2%;
       }
     }
 
     @media screen and (min-width: 1280px) {
-      .artists__button--prev {
+      .artists__button.js-prev {
         left: -4%;
       }
     }
 
-    .artists__button--next {
+    .artists__button.js-next {
       right: -4%;
+      z-index: 1;
     }
 
     @media screen and (min-width: 768px) {
-      .artists__button--next {
+      .artists__button.js-next {
         right: -2%;
       }
     }
 
     @media screen and (min-width: 1280px) {
-      .artists__button--next {
+      .artists__button.js-next {
         right: -4%;
       }
     }
 
     .artists__list {
       display: flex;
-      gap: 30px;
-      transition: transform 0.3s ease;
-      overflow: hidden;
+      transition: transform 0.5s ease-in-out;
 
       .artists__item {
-        flex: 0 0 auto;
+        flex-shrink: 0;
+        padding: 0 15px;
         width: 100%;
-      }
-
-      @media screen and (min-width: 768px) {
-        .artists__item {
-          width: calc(50% - 15px);
-        }
-      }
-
-      @media screen and (min-width: 1280px) {
-        .artists__item {
-          width: calc(25% - 22.5px);
-        }
       }
 
       .artists__image {
@@ -151,14 +144,12 @@
       @media screen and (min-width: 768px) {
         .artists__image {
           width: 337px;
-          height: 332px;
         }
       }
 
       @media screen and (min-width: 1280px) {
         .artists__image {
           width: 327px;
-          height: 322px;
         }
       }
 
