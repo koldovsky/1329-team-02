@@ -2,11 +2,11 @@
   background-color: var(--bg-secondary-color);
 }
 
-.slider__container {
+.slider__wrapper {
   position: relative;
 }
 
-.slider__wrapper {
+.slider__carousel {
   overflow: hidden;
 }
 
@@ -34,12 +34,14 @@
   }
 }
 
-.slider__button--prev {
-  left: 5px;
+.js-prev-btn {
+  left: -4%;
+  z-index: 1;
 }
 
-.slider__button--next {
-  right: 5px;
+.js-next-btn {
+  right: -4%;
+  z-index: 1;
 }
 
 .slider__icon {
@@ -68,30 +70,14 @@
 
 .slider__list {
   display: flex;
-  position: relative;
-  overflow: hidden;
-  gap: 20px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .slider__item {
-  flex: 0 0 100%;
+  flex-shrink: 0;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-}
-
-@media screen and (min-width: 768px) {
-  .slider__item {
-    flex: 0 0 calc((100% - 20px) / 2);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .slider__item {
-    flex: 0 0 calc((100% - 3 * 20px) / 4);
-  }
 }
 
 .slider__year {
@@ -104,12 +90,29 @@
   display: block;
   height: 3px;
   width: 33px;
-  background: var(--accent-magenta);
   margin: 10px 0;
 }
 
+.year-1::after {
+  background-color: var(--accent-magenta);
+}
+
+.year-2::after {
+  background-color: var(--accent-orange);
+}
+
+.year-3::after {
+  background-color: var(--accent-vivid-violet);
+}
+
+.year-4::after {
+  background-color: var(--accent-orange);
+}
+
+.year-5::after {
+  background-color: var(--accent-blue);
+}
+
 .slider__text {
-  font-size: 16px;
-  line-height: 24px;
   color: var(--text-color);
 }
