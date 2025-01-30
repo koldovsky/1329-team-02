@@ -2,13 +2,13 @@
   <div class="artists__container container">
     <h2 class="artists__title">Popular Artists</h2>
     <div class="artists__wrapp">
-      <div class="artists__slider">
-        <button class="artists__button js-prev" type="button">
+      <div class="artists__slider" data-carousel>
+        <button class="artists__button js-prev" type="button" data-prev>
           <svg class="artists__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-left-btn"></use>
           </svg>
         </button>
-        <ul class="artists__list">
+        <ul class="artists__list" data-track>
           <li class="artists__item">
             <article class="artists__card">
               <img
@@ -70,7 +70,7 @@
             </article>
           </li>
         </ul>
-        <button class="artists__button js-next" type="button">
+        <button class="artists__button js-next" type="button" data-next>
           <svg class="artists__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-right-btn"></use>
           </svg>

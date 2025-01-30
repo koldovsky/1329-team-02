@@ -1,20 +1,25 @@
-class Carousel {
-  constructor() {
-    this.initElements();
+export default class Slider {
+  constructor(container) {
+    this.container =
+      typeof container === 'string'
+        ? document.querySelector(container)
+        : container;
+
+    if (!this.container) return;
+
+    this.track = this.container.querySelector('[data-track]');
+    this.slides = Array.from(this.track.children);
+    this.prevButton = this.container.querySelector('[data-prev]');
+    this.nextButton = this.container.querySelector('[data-next]');
+
+    if (!this.track || !this.slides.length) return;
+
     this.slidesPerView = this.getSlidesPerView();
     this.currentIndex = this.slidesPerView;
 
     this.cloneSlides();
     this.addEventListeners();
     this.updateSlidePositions();
-  }
-
-  initElements() {
-    this.container = document.querySelector('.artists__slider');
-    this.track = this.container.querySelector('.artists__list');
-    this.slides = Array.from(this.track.children);
-    this.prevButton = this.container.querySelector('.artists__button.js-prev');
-    this.nextButton = this.container.querySelector('.artists__button.js-next');
   }
 
   getSlidesPerView() {
@@ -41,7 +46,7 @@ class Carousel {
   }
 
   slide(direction) {
-    this.currentIndex += direction === 'js-next' ? 1 : -1;
+    this.currentIndex += direction === 'next' ? 1 : -1;
     this.track.style.transition = 'transform 0.5s ease-in-out';
     this.updateSlidePositions();
 
@@ -57,8 +62,10 @@ class Carousel {
   }
 
   addEventListeners() {
-    this.prevButton.addEventListener('click', () => this.slide('js-prev'));
-    this.nextButton.addEventListener('click', () => this.slide('js-next'));
+    if (this.prevButton && this.nextButton) {
+      this.prevButton.addEventListener('click', () => this.slide('prev'));
+      this.nextButton.addEventListener('click', () => this.slide('next'));
+    }
     window.addEventListener('resize', () => {
       this.slidesPerView = this.getSlidesPerView();
       this.currentIndex = this.slidesPerView;
@@ -68,4 +75,6 @@ class Carousel {
   }
 }
 
-new Carousel();
+document.querySelectorAll('[data-carousel]').forEach(carousel => {
+  new Slider(carousel);
+});

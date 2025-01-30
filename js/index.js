@@ -1,7 +1,6 @@
 function init() {
   import('./global.header.js');
-  import('./index.popular-songs.js');
-  import('./index.artists.js');
+  import('./global.slider.js');
   import('./global.footer.js');
 }
 

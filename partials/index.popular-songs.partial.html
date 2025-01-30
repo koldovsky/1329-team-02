@@ -11,13 +11,13 @@
       </p>
     </div>
     <div class="popular-songs__wrapp">
-      <div class="popular-songs__slider">
-        <button class="popular-songs__button prev">
+      <div class="popular-songs__slider" data-carousel>
+        <button class="popular-songs__button prev" data-prev>
           <svg class="popular-songs__icon">
             <use href="./images/sprite.svg#icon-left-btn"></use>
           </svg>
         </button>
-        <ul class="popular-songs__list">
+        <ul class="popular-songs__list" data-track>
           <li class="popular-songs__item">
             <article class="popular-songs__card">
               <img
@@ -79,7 +79,7 @@
             </article>
           </li>
         </ul>
-        <button class="popular-songs__button next">
+        <button class="popular-songs__button next" data-next>
           <svg class="popular-songs__icon">
             <use href="./images/sprite.svg#icon-right-btn"></use>
           </svg>

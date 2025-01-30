@@ -11,13 +11,13 @@
       </p>
     </div>
     <div class="team__wrapp">
-      <div class="team__slider">
-        <button class="team__button js-btn-prev" type="button">
+      <div class="team__slider" data-carousel>
+        <button class="team__button js-btn-prev" type="button" data-prev>
           <svg class="team__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-left-btn"></use>
           </svg>
         </button>
-        <ul class="team__list">
+        <ul class="team__list" data-track>
           <li class="team__item">
             <article class="team__card">
               <img
@@ -184,7 +184,7 @@
             </article>
           </li>
         </ul>
-        <button class="team__button js-btn-next" type="button">
+        <button class="team__button js-btn-next" type="button" data-next>
           <svg class="team__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-right-btn"></use>
           </svg>

@@ -1,13 +1,13 @@
 <section class="slider">
   <div class="slider__container container">
     <div class="slider__wrapper">
-      <div class="slider__carousel">
-        <button class="slider__button js-prev-btn" type="button">
+      <div class="slider__carousel" data-carousel>
+        <button class="slider__button js-prev-btn" type="button" data-prev>
           <svg class="slider__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-left-btn"></use>
           </svg>
         </button>
-        <ul class="slider__list">
+        <ul class="slider__list" data-track>
           <li class="slider__item">
             <span class="slider__year year-1">2005</span>
             <p class="slider__text">
@@ -39,7 +39,7 @@
             </p>
           </li>
         </ul>
-        <button class="slider__button js-next-btn" type="button">
+        <button class="slider__button js-next-btn" type="button" data-next>
           <svg class="slider__icon" width="25" height="25">
             <use href="./images/sprite.svg#icon-right-btn"></use>
           </svg>
