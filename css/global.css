@@ -116,6 +116,10 @@ button {
   margin: 0 auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;

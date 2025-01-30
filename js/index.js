@@ -1,4 +1,5 @@
 function init() {
+  import('./global.header.js');
   import('./index.popular-songs.js');
   import('./index.artists.js');
 }
