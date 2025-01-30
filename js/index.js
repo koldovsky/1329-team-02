@@ -2,6 +2,7 @@ function init() {
   import('./global.header.js');
   import('./index.popular-songs.js');
   import('./index.artists.js');
+  import('./global.footer.js');
 }
 
 const totalPartials = document.querySelectorAll(
