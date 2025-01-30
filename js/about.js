@@ -1,6 +1,7 @@
 function init() {
   import('./about.slider.js');
   import('./about.team.js');
+  import('./about.story.js');
 }
 
 const totalPartials = document.querySelectorAll(

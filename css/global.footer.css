@@ -149,6 +149,11 @@
     background-color: var(--accent-paler-violet);
   }
 
+  .footer__links-text:hover {
+    transition: color 0.3s ease;
+    color: var(--accent-paler-violet);
+  }
+
   .footer__links {
     display: flex;
   }
