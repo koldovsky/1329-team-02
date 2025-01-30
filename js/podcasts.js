@@ -1,5 +1,6 @@
 function init() {
   import('./global.header.js');
+  import('./global.scroll-top.js');
   import('./global.footer.js');
 }
 

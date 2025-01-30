@@ -13,6 +13,11 @@
   height: 50px;
   line-height: 1.5;
   opacity: 0.8;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: no-repeat scroll var(--accent-magenta);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -25,9 +30,4 @@
 .scroll__icon {
   width: 100%;
   height: 100%;
-  fill: var(--accent-orange);
-}
-
-.scroll__icon:hover {
-  fill: var(--color-white);
 }

@@ -1,27 +1,16 @@
-document.addEventListener('scroll', handleScroll);
-// get a reference to our predefined button
-let scrollToTopBtn = document.querySelector('.scroll__top');
+const scrollToTopBtn = document.querySelector('.scroll__top');
+const GOLDEN_RATIO = 0.1;
 
-function handleScroll() {
-  let scrollableHeight =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
-  let GOLDEN_RATIO = 0.1;
+document.addEventListener('scroll', () => {
+  scrollToTopBtn.style.display =
+    document.documentElement.scrollTop /
+      (document.documentElement.scrollHeight -
+        document.documentElement.clientHeight) >
+    GOLDEN_RATIO
+      ? 'block'
+      : 'none';
+});
 
-  if (document.documentElement.scrollTop / scrollableHeight > GOLDEN_RATIO) {
-    //show button
-    scrollToTopBtn.style.display = 'block';
-  } else {
-    //hide button
-    scrollToTopBtn.style.display = 'none';
-  }
-}
-
-scrollToTopBtn.addEventListener('click', scrollToTop);
-
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-  });
-}
+scrollToTopBtn.addEventListener('click', () =>
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+);
