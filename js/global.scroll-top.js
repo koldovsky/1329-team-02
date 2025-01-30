@@ -1,6 +1,8 @@
 const scrollToTopBtn = document.querySelector('.scroll__top');
 const GOLDEN_RATIO = 0.1;
 
+scrollToTopBtn.style.display = 'none';
+
 document.addEventListener('scroll', () => {
   scrollToTopBtn.style.display =
     document.documentElement.scrollTop /
