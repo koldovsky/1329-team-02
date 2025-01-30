@@ -54,7 +54,7 @@
   background: var(--button-hover-gradient);
 }
 
-.hidden {
+.story__text__hidden {
   display: none;
 }
 
