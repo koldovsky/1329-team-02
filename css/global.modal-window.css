@@ -1,3 +1,7 @@
+body.is-open {
+  overflow: hidden;
+}
+
 .modal-window__backdrop {
   position: fixed;
   top: 0;
