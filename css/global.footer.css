@@ -214,6 +214,10 @@
   }
 }
 
+.footer__icon-wrapper {
+  cursor: pointer;
+}
+
 @keyframes Scale {
   0% {
     transform: scale(1);
@@ -226,5 +230,4 @@
 
 .footer__icon {
   animation: Scale 0.7s ease infinite alternate;
-  cursor: pointer;
 }
