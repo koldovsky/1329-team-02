@@ -34,7 +34,7 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background-color: var(--color-white);
+  background-color: var(--main-color);
   border-radius: 10px;
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
@@ -68,7 +68,7 @@
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  stroke: var(--color-black);
+  stroke: var(--bg-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -79,7 +79,7 @@
 }
 
 .modal-window__modal-close-btn:hover {
-  stroke: var(--color-green);
+  stroke: var(--accent-orange);
 }
 
 .modal-window__modal-close-icon {
@@ -89,7 +89,7 @@
 .modal-window__title {
   text-align: center;
   text-transform: uppercase;
-  color: var(--color-black);
+  color: var(--bg-color);
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -103,8 +103,8 @@
 
 .modal-window__item {
   border-radius: 5px;
-  background-color: var(--color-grey);
-  color: var(--color-white);
+  background-color: var(--text-color);
+  color: var(--main-color);
   position: relative;
   border-radius: 10px;
   padding-bottom: 5px;
@@ -141,14 +141,14 @@
 .modal-window__member {
   font-weight: 700;
   font-size: 16px;
-  color: var(--color-black);
+  color: var(--main-color);
   margin-bottom: 10px;
 }
 
 .modal-window__role {
   font-weight: 500;
   font-size: 16px;
-  color: var(--color-green);
+  color: var(--accent-orange);
   margin-bottom: 10px;
 }
 
@@ -159,7 +159,7 @@
   border-radius: 10%;
   margin-right: 10px;
   background-color: transparent;
-  fill: var(--color-black);
+  fill: var(--main-color);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -167,8 +167,8 @@
 
 .modal-window__link-linkedin--active:hover,
 .modal-window__link-linkedin--active:focus {
-  background-color: var(--color-green);
-  fill: var(--color-white);
+  background-color: var(--accent-orange);
+  fill: var(--accent-magenta);
 }
 
 .modal-window__link-github {
@@ -177,7 +177,7 @@
   height: 36px;
   border-radius: 50%;
   background-color: transparent;
-  fill: var(--color-black);
+  fill: var(--main-color);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -185,6 +185,6 @@
 
 .modal-window__link-github--active:hover,
 .modal-window__link-github--active:focus {
-  background-color: var(--color-green);
-  fill: var(--color-white);
+  background-color: var(--accent-orange);
+  fill: var(--accent-magenta);
 }
