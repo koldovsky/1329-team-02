@@ -143,7 +143,7 @@
   .header__menu {
     top: 120px;
     background-color: var(--bg-color);
-    z-index: 1;
+    z-index: 10;
   }
 
   /* ANIMATE BURGER BTN */
