@@ -3,6 +3,7 @@ function init() {
   import('./about.story.js');
   import('./global.slider.js');
   import('./global.scroll-top.js');
+  import('./global.modal-window.js');
   import('./global.footer.js');
 }
 
