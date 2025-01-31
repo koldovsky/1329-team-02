@@ -34,7 +34,7 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background-color: var(--main-color);
+  background-color: var(--accent-vivid-violet);
   border-radius: 10px;
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
@@ -83,7 +83,7 @@
 }
 
 .modal-window__modal-close-icon {
-  fill: currentColor;
+  fill: var(--bg-color);
 }
 
 .modal-window__title {
