@@ -7,7 +7,7 @@
   overflow-y: auto;
   z-index: 998;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--bg-alfa);
   visibility: visible;
   opacity: 1;
 }
@@ -37,7 +37,8 @@
   background: var(--bg-alfa);
   border-radius: 10px;
   border: 2px solid var(--accent-translucent-white);
-  box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
+  box-shadow: 0 28px 42px var(--accent-translucent-black),
+    0 20px 20px var(--accent-translucent-black);
 }
 
 @media screen and (min-width: 768px) {
@@ -114,8 +115,9 @@
 
 .modal-window__item:hover,
 .modal-window__item:focus {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--accent-translucent-black),
+    0px 1px 1px var(--accent-translucent-black),
+    0px 2px 1px var(--accent-translucent-black);
 }
 
 .modal-window__wrap {
