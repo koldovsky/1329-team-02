@@ -74,7 +74,6 @@ body.is-open {
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  stroke: var(--accent-orange);
 }
 
 @media screen and (min-width: 768px) {
@@ -84,12 +83,12 @@ body.is-open {
   }
 }
 
-.modal-window__modal-close-btn:hover {
-  /* stroke: var(--accent-orange); */
-}
-
 .modal-window__modal-close-icon {
   fill: var(--accent-orange);
+}
+
+.modal-window__modal-close-icon:hover {
+  fill: var(--main-color);
 }
 
 .modal-window__title {
