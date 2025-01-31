@@ -226,4 +226,5 @@
 
 .footer__icon {
   animation: Scale 0.7s ease infinite alternate;
+  cursor: pointer;
 }
