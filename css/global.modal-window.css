@@ -40,7 +40,7 @@ body.is-open {
   opacity: 1;
   background: var(--bg-alfa);
   border-radius: 10px;
-  border: 2px solid var(--accent-translucent-white);
+  border: 2px solid var(--accent-orange);
   box-shadow: 0 28px 42px var(--accent-translucent-black),
     0 20px 20px var(--accent-translucent-black);
 }
@@ -74,7 +74,7 @@ body.is-open {
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  stroke: var(--main-color);
+  stroke: var(--accent-orange);
 }
 
 @media screen and (min-width: 768px) {
@@ -89,13 +89,13 @@ body.is-open {
 }
 
 .modal-window__modal-close-icon {
-  fill: var(--text-color);
+  fill: var(--accent-orange);
 }
 
 .modal-window__title {
   text-align: center;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: var(--accent-orange);
   font-size: 24px;
   margin-bottom: 20px;
 }
