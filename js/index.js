@@ -2,6 +2,7 @@ function init() {
   import('./global.header.js');
   import('./global.slider.js');
   import('./global.scroll-top.js');
+  import('./global.modal-window.js');
   import('./global.footer.js');
 }
 

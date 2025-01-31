@@ -213,3 +213,18 @@
     padding: 20px 0;
   }
 }
+
+@keyframes Scale {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.footer__icon {
+  margin: 0 10px 0 10px;
+  animation: Scale 0.7s ease infinite alternate;
+}
