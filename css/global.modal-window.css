@@ -34,8 +34,9 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background: linear-gradient(var(--button-gradient), var(--button-gradient));
+  background: var(--bg-alfa);
   border-radius: 10px;
+  border: 2px solid var(--accent-translucent-white);
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
 
@@ -68,7 +69,7 @@
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  stroke: var(--bg-color);
+  stroke: var(--main-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -83,13 +84,13 @@
 }
 
 .modal-window__modal-close-icon {
-  fill: var(--bg-color);
+  fill: var(--text-color);
 }
 
 .modal-window__title {
   text-align: center;
   text-transform: uppercase;
-  color: var(--bg-color);
+  color: var(--main-color);
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -158,7 +159,7 @@
   border-radius: 50%;
   margin-right: 10px;
   background-color: transparent;
-  fill: var(--accent-infinity-violet);
+  fill: var(--bg-color);
   display: inline-flex;
   justify-content: center;
   align-items: center;
