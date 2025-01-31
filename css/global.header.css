@@ -70,7 +70,7 @@
     top: -7px;
   }
 
-  @media (min-width: 768px) {
+  @media (max-width: 1279px) {
     .header__container {
       padding: auto;
     }
@@ -80,7 +80,7 @@
     }
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1280px) {
     .header__burger-btn {
       display: none;
     }
