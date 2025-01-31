@@ -61,17 +61,29 @@ export default class Slider {
     }, 500);
   }
 
+  debounce(func, delay) {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+  }
+
+  handleResize() {
+    this.slidesPerView = this.getSlidesPerView();
+    this.currentIndex = this.slidesPerView;
+    this.cloneSlides();
+    this.updateSlidePositions();
+  }
+
   addEventListeners() {
     if (this.prevButton && this.nextButton) {
       this.prevButton.addEventListener('click', () => this.slide('prev'));
       this.nextButton.addEventListener('click', () => this.slide('next'));
     }
-    window.addEventListener('resize', () => {
-      this.slidesPerView = this.getSlidesPerView();
-      this.currentIndex = this.slidesPerView;
-      this.cloneSlides();
-      this.updateSlidePositions();
-    });
+
+    this.debouncedResize = this.debounce(this.handleResize, 200);
+    window.addEventListener('resize', this.debouncedResize);
   }
 }
 
