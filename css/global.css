@@ -109,6 +109,10 @@ button {
   font: inherit;
 }
 
+textarea {
+  resize: none;
+}
+
 .container {
   width: 100%;
   max-width: 375px;
