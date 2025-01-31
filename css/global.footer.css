@@ -214,11 +214,6 @@
   }
 }
 
-.footer__modal-btn {
-  background-color: transparent;
-  border: none;
-}
-
 @keyframes Scale {
   0% {
     transform: scale(1);
