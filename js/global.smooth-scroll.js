@@ -1,5 +1,8 @@
+let isClickTriggered = false;
+
 document.querySelectorAll('[data-scroll-to]').forEach(link => {
   link.addEventListener('click', event => {
+    isClickTriggered = true;
     const targetId = link.getAttribute('data-scroll-to');
     const currentPage =
       window.location.pathname.endsWith('index.html') ||
@@ -17,7 +20,7 @@ document.querySelectorAll('[data-scroll-to]').forEach(link => {
   });
 });
 
-if (window.location.hash) {
+if (window.location.hash && !isClickTriggered) {
   setTimeout(() => {
     const targetElement = document.querySelector(window.location.hash);
     if (targetElement) {
