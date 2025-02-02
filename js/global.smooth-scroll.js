@@ -16,3 +16,12 @@ document.querySelectorAll('[data-scroll-to]').forEach(link => {
     }
   });
 });
+
+if (window.location.hash) {
+  setTimeout(() => {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 300);
+}
