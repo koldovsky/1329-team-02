@@ -5,6 +5,7 @@ function init() {
   import('./global.smooth-scroll.js');
   import('./global.modal-window.js');
   import('./global.footer.js');
+  import('./index.broadcasts.js')
 }
 
 const totalPartials = document.querySelectorAll(
