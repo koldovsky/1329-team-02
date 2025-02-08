@@ -6,6 +6,7 @@
 
   .cta__background {
     background: var(--accent-translucent-black);
+
     .cta__inner {
       padding-top: 120px;
       padding-bottom: 120px;
@@ -42,6 +43,7 @@
           border: 1px solid #a6a6a6;
         }
       }
+
       @media screen and (min-width: 768px) {
         font-size: 68px;
       }

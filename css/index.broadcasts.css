@@ -79,8 +79,7 @@
 .podcast-card__info-item {
   display: inline-flex;
   align-items: center;
-  margin: 0px 0px 16px;
-  margin-right: 16px;
+  margin: 0 16px 16px 0;
   text-align: left;
 }
 

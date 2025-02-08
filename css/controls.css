@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  padding: 12px 35px 12px 35px;
+  padding: 12px 35px;
   text-align: center;
   border-radius: 30px;
   background-image: var(--button-gradient);

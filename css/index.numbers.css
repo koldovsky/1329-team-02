@@ -78,6 +78,7 @@
       .numbers__intro {
         width: 60%;
       }
+
       .numbers__stats {
         flex: 1, 1, 50%;
 
@@ -127,6 +128,7 @@
       width: 100%;
     }
   }
+
   @media screen and (min-width: 768px) {
     .numbers__content {
       display: flex;
@@ -140,17 +142,20 @@
           font-size: 28px;
         }
       }
+
       .numbers__image-wrapper {
         height: auto;
       }
     }
   }
+
   @media screen and (min-width: 1280px) {
     .numbers__content {
       display: flex;
       flex-wrap: row;
       justify-content: center;
       width: 100%;
+
       .numbers__cta {
         padding: 39px 60px;
         width: 60%;
@@ -159,6 +164,7 @@
           font-size: 28px;
         }
       }
+
       .numbers__image-wrapper {
         height: 450px;
       }

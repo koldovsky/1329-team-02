@@ -66,6 +66,7 @@
   .header__burger-line::before {
     top: 7px;
   }
+
   .header__burger-line::after {
     top: -7px;
   }
@@ -94,11 +95,13 @@
       height: auto;
       top: 0;
       position: relative;
+
       .header__menu-list {
         display: flex;
         flex-direction: row;
         margin-right: 100px;
         gap: 15px;
+
         .header__menu-item {
           font-size: 15px;
           .header__menu-link {
@@ -146,7 +149,6 @@
     z-index: 10;
   }
 
-  /* ANIMATE BURGER BTN */
   .header__burger-line {
     background: transparent;
   }

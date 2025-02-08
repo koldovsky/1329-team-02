@@ -52,7 +52,6 @@
 }
 
 .about-station__paragraph {
-  font-size: 16px;
   color: var(--text-color);
   margin-bottom: 30px;
 }
@@ -147,6 +146,7 @@
     width: 660px;
     padding: 50px 40px;
   }
+
   .about-station__card__img-box {
     width: 100px;
     height: 100px;
