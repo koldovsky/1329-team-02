@@ -6,7 +6,7 @@ const newsCards = [
         date: "2024-01-20",
         category: " | CHART",
         title: "Chart-Toppers Unveiled: Latest Releases from Music Icons",
-        description: "KRAVETS V. From groundbreaking collaborations to solo masterpieces, get ready to update your playlist with the hottest hits.",
+        description: "From groundbreaking collaborations to solo masterpieces, get ready to update your playlist with the hottest hits.",
         link: "/"
     },
     {
