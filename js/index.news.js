@@ -7,7 +7,7 @@ const newsCards = [
         category: " | CHART",
         title: "Chart-Toppers Unveiled: Latest Releases from Music Icons",
         description: "From groundbreaking collaborations to solo masterpieces, get ready to update your playlist with the hottest hits.",
-        link: "/"
+        link: "#"
     },
     {
         id: "2",
@@ -17,7 +17,7 @@ const newsCards = [
         category: " | RADIO",
         title: "Radio Resurgence: A Timeless Medium in a Digital Age",
         description: "We explore the radio's role in connecting communities, showcasing diverse music, and providing a personal touch in a digital world.",
-        link: "/"
+        link: "#"
     },
     {
         id: "3",
@@ -27,7 +27,7 @@ const newsCards = [
         category: " | MUSIC",
         title: "Harmony in Waves: Exploring the Impact of Music on Radio",
         description: "Join us on a musical journey as we delve into the influence of radio on music discovery, artist exposure, and the evolution of genres.",
-        link: "/"
+        link: "#"
     },
   ];
   
