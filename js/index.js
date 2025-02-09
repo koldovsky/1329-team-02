@@ -6,6 +6,7 @@ function init() {
   import('./global.modal-window.js');
   import('./global.footer.js');
   import('./index.broadcasts.js')
+  import('./index.news.js')  
 }
 
 const totalPartials = document.querySelectorAll(
